@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LTGlobalViewController.h"
+#import "LTConfigure.h"
+#import "SAReqManager.h"
+#import "YPUserLoginReq.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    LTApplicationSetup();
+    LTGlobalViewController* globalVC = [LTGlobalViewController new];
+    _globalViewController = globalVC;
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = globalVC;
+    //
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    
+    YPUserLoginReq* req = [YPUserLoginReq new];
+    req.uname = @"test";
+    req.passwd = @"123456";
+    
+    [MSDefaultSyncCenter performRequest:req];
+    
     return YES;
 }
 
@@ -42,4 +59,23 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    if ([[SAReqManager shareManager] canHandleURL]) {
+        [[SAReqManager shareManager] handleURL:url];
+    }
+    
+    return YES;
+}
+
+- (BOOL) application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    if ([[SAReqManager shareManager] canHandleURL]) {
+        [[SAReqManager shareManager] handleURL:url];
+    }
+    
+    return YES;
+}
 @end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6C81767A8C30AFD6AC24E3CC"
+               BlueprintIdentifier = "C82BB2FAEA5AC2C7F6B5D626"
                BuildableName = "libMSInputScrollViewController.a"
                BlueprintName = "MSInputScrollViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

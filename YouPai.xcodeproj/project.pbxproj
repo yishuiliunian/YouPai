@@ -8,83 +8,182 @@
 
 /* Begin PBXBuildFile section */
 		014DED189866722A9A7E853D /* (null) in Headers */ = {isa = PBXBuildFile; };
+		01D6414BABFF30EF93EFF519 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		01D65429BA639B06C48779F9 /* YPQueueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6F270A5EA70DF7D3F425C /* YPQueueModel.m */; };
+		03BDA27ACCBB0741F4EC8DAA /* (null) in Headers */ = {isa = PBXBuildFile; };
 		03CE4D37891F2E6D1D1A68A1 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0454FDA59C059B538F05BBB8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		05BC78E63889BDF851BD7113 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0663EAE7AFBE1F34B0C758A5 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		06A2DC88582364DB82AADCC0 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		073386860EF82B5D2D14E664 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		076DE3D81D8800B0AE767CEA /* (null) in Headers */ = {isa = PBXBuildFile; };
 		07C741B6911E01983FDDAE29 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		096941E98A2BBFF89EB66FCF /* __YPUserLoginReq.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1F130A9EB1CD5EA761D25C /* __YPUserLoginReq.h */; };
+		096941E98A2BBFF89EB66FCF /* (null) in Headers */ = {isa = PBXBuildFile; };
 		09848563CA791EE6A9384919 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0A3951082256C088E8BB809F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0A419656BFBA501A6B05DF54 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0AA69B548B35F350E4F96367 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0B8575C8F48D1583185C39E2 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		0C6E88B130B529FDF47E01C5 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0C9595885A8D0F559A6F40D7 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		0D61E953404AA34B9F602486 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0D98999A7CF50244F73853E9 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0E526D01716D058457BF857E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0EB3E46B962B82FDF6DBA0E9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0EDE87AD918DE5E00EA693D9 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		0F8D38B5A37DD8DD3DC2F686 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0FE6C7C7E3E9E851BB80E6F3 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		0FEEDD5C28BF60D8997AFC3B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		103D1BEAB4CA1A8EA2BCA397 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1081B458E6BF347C3989DB09 /* __YPSPDetailReq.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A8C2E92DBAD11351AC343 /* __YPSPDetailReq.m */; };
+		1101A4BA17A2C3659D7590A4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1124C3684A285E56CF431D43 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		11479A3FA7C2A183462795B4 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		12271C1365823910B46FD89B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		1240A3C2A65F1B87DBA443BC /* (null) in Headers */ = {isa = PBXBuildFile; };
 		127327EBDCA13B9C8B083D35 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		12BB81B2FEE6859FFB916F4C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		12E0407CED8D9455034EE4BD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		132789E866CD8EDC32282279 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		13961CE45D642DEF3CC825F6 /* (null) in Headers */ = {isa = PBXBuildFile; };
-		16D5BAA0D24807C96DF45499 /* YPUserLoginRsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A66A434D1155A15349F7 /* YPUserLoginRsq.h */; };
+		16995B69C0B567CBA8F0D1D8 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		16D5BAA0D24807C96DF45499 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		17519C826212698292C2A1A7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		177BDCADAA232BA28C57AC94 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		181D7FFD86E64E0852898E97 /* (null) in Headers */ = {isa = PBXBuildFile; };
-		182D8960AB68EB3B0AA1F634 /* YPUserLoginRsq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE98AE194A4A6C15037FF06 /* YPUserLoginRsq.m */; };
+		182D8960AB68EB3B0AA1F634 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		184819B6238DC947173A1B79 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		19E1EDB665E7368DFD59A40A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		1AF30A391F9F4CEF60F094E5 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1B9A407749E84DE72DCB32A8 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		1C6281B9040C05F74DAB743B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1C9CABE36AF95508B919DFD7 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		1CBE510D7A2F225086387885 /* __YPUserLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = B5608A61EA251874B92A3082 /* __YPUserLoginReq.m */; };
+		1CBE510D7A2F225086387885 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1D163E9F2C307F6523493301 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1DA29D438D173E3C56F7724F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1EE157AC8A515E2E13FDB894 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1FC6419CFAF59166FB8BFCC6 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		202F8F9A32C0306F9F9158B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		2119ADE94B50A95F010EB642 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		213E539CBBB3B91D15887E84 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		22142863CDB1BF7EE0564D8C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		223F81235884409FE7D06BCB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		2290C6177FAF99F2BBA0A3C4 /* YPServerRsq.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CFD79CC6106AC3D706B8D /* YPServerRsq.m */; };
 		229C3037A18ABA213F41F2D9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2368C87A2278B9A2687936AC /* (null) in Headers */ = {isa = PBXBuildFile; };
 		23795BDF5840A3D3042490F7 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		239651911E158C6DEE4FD7EA /* (null) in Headers */ = {isa = PBXBuildFile; };
 		24CCC8BF0D66AFF9CC43690A /* (null) in Headers */ = {isa = PBXBuildFile; };
 		254A3FBF70A123B33B73E005 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		2597844B514D5E991E0353CD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		260122CCF7F9220A5F0CC8CB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2752D62A45C999FF73DC7A94 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2802A773636EE86EBCE305C9 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		287635E80EC639FD88C7D857 /* YPSPDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E5D2F070558B5CECB08D97 /* YPSPDetail.h */; };
+		28E863F2915108202E7CF11B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		293D2A303A349266D4C40B0C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		29AB86D27A38B9955AA4F2DF /* (null) in Headers */ = {isa = PBXBuildFile; };
+		2A0C24BDE64C7AAA7DF8C136 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		2A4CD39747B407773F36468D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		2B15BE696BAB94B4E65B5FB8 /* YPSPDetailReq.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA051176AE3C7D70987E1F4 /* YPSPDetailReq.m */; };
 		2BF0338215C8D6632EEA14D5 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2C12DAB4CA9CA5815C566F39 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		2CCBFB94A847145289BC3927 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		2D0B1E27276B8D6AAB888540 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		2D238450DF85B39F1BBFB863 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		2D9817666A21CEF030C7D802 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		2DC2F3E25FC9311F114DA268 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		2DEB148F9252D3A401ED4440 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		2FAF11AC8D0E746BF2D44730 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		3084B321F2C9B3352EBA8845 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		30C84AE893FDBC52D2CA63B0 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3161E5DC05DFB2ED827B6C18 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		32904488D4BFA9D1D0351A3C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3355E20CD0DF720D2395318C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		33EDF4FB6A7ABB3539B4B436 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		34563D1D653F0003B7C694D4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		34F71C63E18559E3621D494E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		350CC5C9F0EFE0D4F9EF2360 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		357846FD6F95307FFE36E33E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		35C2EC3E3266385237A936A8 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		39E3DA4EB5A3834D9184F085 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		3A351D06B4E0EA9670156E4B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3ACA072814CE3E8910A49D0C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		3B5D2D56662BB0F433764307 /* YPSPData.h in Headers */ = {isa = PBXBuildFile; fileRef = CC28416BE1AC08272111A938 /* YPSPData.h */; };
+		3C0BBC8BD50BE5BC839DA6CA /* (null) in Headers */ = {isa = PBXBuildFile; };
+		3C2E46523C16AD9178DF3EBE /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3D51037534CF747C61E48911 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3DF5FFF991F5F6EA7F8DD71F /* (null) in Headers */ = {isa = PBXBuildFile; };
+		3E299733FC03F3D2CD26DBB1 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3E986E14EAE3EC1B1C052D37 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3F723D05CAB668EB44FA034B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3FA6FC69B486B63C2287F1D9 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		3FDD688DF7364A8F5C4698DC /* (null) in Headers */ = {isa = PBXBuildFile; };
 		3FFFDC862F3E700C2410EC8F /* (null) in Headers */ = {isa = PBXBuildFile; };
 		40216AB397B54FDE03F984D4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		40DCA7FA85BEBEB8383EDDDD /* (null) in Headers */ = {isa = PBXBuildFile; };
 		419E8C0ACFB0D6F2A8E9ED08 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		43AC4E441ACC50AD0F2E71C6 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		44364CEF63D292D673079930 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		448E83480AA97C66B71789E4 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		44D1718B81C494E689E7CC8A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		45187C72FD7504C35E142EDD /* (null) in Headers */ = {isa = PBXBuildFile; };
+		452758C6D91849850A0903ED /* (null) in Sources */ = {isa = PBXBuildFile; };
 		456FAC80D7493BF3CC1108E8 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		45E17F003BCFE07360F7919B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		45E473DE4C0B07405254D988 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		4649037F436235EDA8B1A661 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		4692536360FE568C122CE430 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		471042E637411684462B5E1F /* (null) in Headers */ = {isa = PBXBuildFile; };
+		47AB0A8C626AE37F4BE6118E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		47BA2E16D6647F4453F44F39 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		47FF28FD7247FABAD1E75005 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		48E7D29D851FB2C8AE4AD244 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		4A0502E4B65CB39822027124 /* YPUserLoginRsq.h in Headers */ = {isa = PBXBuildFile; fileRef = E630F7D8F52A568C9C2CF340 /* YPUserLoginRsq.h */; };
 		4A4DCB535C850DCB18F6BE7C /* (null) in Sources */ = {isa = PBXBuildFile; };
 		4AD753CE4EF5DE1259D4B42F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		4AF3CB13448493AD3FF3DA33 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		4B3C4734E86CB71F813ADC20 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		4B47CC2B0E9E76647ACCE84B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		4B918F963E6B8345A0CB1D67 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		4C87824855C5C97793A7F31E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		4C8DF04ADA6FAF1F4363D24D /* (null) in Headers */ = {isa = PBXBuildFile; };
 		4DB038EFE5738BB327D6CC8D /* (null) in Headers */ = {isa = PBXBuildFile; };
+		4EC2FCCCEB9AAF1193C39171 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		4EE19025F8E9E2674D8849EA /* (null) in Headers */ = {isa = PBXBuildFile; };
 		4EE875FC1D9D7D73865A1046 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		4EF66A9FD63AB50553AB5A7D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		4F543C1EBD6F6D7D20A1A11A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5144A20B3A26A51AFF90985A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		52C5C3D1C6FADFCD1C56C65C /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5371002756755CFC0AB1FD6A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		54373211465ECAB3305FB5E2 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		547ACA87E86B7F0DE95C60E3 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5686B345435910D20648B0BA /* (null) in Headers */ = {isa = PBXBuildFile; };
 		56BAA2474EB436C76E7D4893 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		572059400405AEDD35D5A24C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		57DB0B5D98D1F35088D5773A /* YPSPDetailReq.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0335B58F8893893EA060DB /* YPSPDetailReq.h */; };
+		5875226BF81C871F68A4A485 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		592BA303FEE877116282EB2F /* (null) in Headers */ = {isa = PBXBuildFile; };
 		59BF66F7937F661E61D79E83 /* (null) in Headers */ = {isa = PBXBuildFile; };
-		5A47C911D79DA30964289B99 /* YPUserLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB39374D652C040038AEEB /* YPUserLoginReq.m */; };
+		5A47C911D79DA30964289B99 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5AA8C412FBB70E4519863576 /* YPFindSPReq.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F44A2C7912CCBBA03B57BE /* YPFindSPReq.h */; };
+		5AB9E2D5412B1CF9DA515E1A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5ACC881EF22B4C5429AD5602 /* YPFindSPTypeDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AD7FC837A7D09626BEAB7D /* YPFindSPTypeDetail.m */; };
+		5BEE2EA637B8E234E28554F1 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5BF10085FA19F5BE86F5CAE3 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		5C1F25B79410C2F5942F5357 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5C57EF2B38C3F2332455C2CF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5D7D692D3A6E2E4EA9298953 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		5EE2954A5BCE3827503F454F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		5F67EF15FEFC45DF0C80D8B6 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5F897B994D0DBFCDB6F6FF09 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		60855B872480E9F671B45EBC /* (null) in Headers */ = {isa = PBXBuildFile; };
+		610D6D3692625006901E7AB3 /* YPQueueModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD80DB021EDEAB1CB82DFC0 /* YPQueueModel.h */; };
 		61101FC2343131809D2F84B7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		612DCCE8502C0B3B9E2A628C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6219697926B2645F62A6A882 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		650DEB7C1B9C61DE0031B549 /* SAAuthQQProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEB6F1B9C61DE0031B549 /* SAAuthQQProcess.h */; };
 		650DEB7D1B9C61DE0031B549 /* SAAuthQQProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEB701B9C61DE0031B549 /* SAAuthQQProcess.m */; };
 		650DEB7E1B9C61DE0031B549 /* SAAuthWeChatProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEB711B9C61DE0031B549 /* SAAuthWeChatProcess.h */; };
@@ -133,11 +232,60 @@
 		650DEBD91B9C66560031B549 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 650DEBD81B9C66560031B549 /* libz.dylib */; };
 		650DEBDB1B9C665D0031B549 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 650DEBDA1B9C665D0031B549 /* libicucore.dylib */; };
 		650DEBDD1B9C66640031B549 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650DEBDC1B9C66640031B549 /* Security.framework */; };
+		650DEBEB1B9DBBFA0031B549 /* YPQueueViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBE91B9DBBFA0031B549 /* YPQueueViewController.h */; };
+		650DEBEC1B9DBBFA0031B549 /* YPQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBEA1B9DBBFA0031B549 /* YPQueueViewController.m */; };
+		650DEBEF1B9DBC140031B549 /* YPMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBED1B9DBC140031B549 /* YPMineViewController.h */; };
+		650DEBF01B9DBC140031B549 /* YPMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBEE1B9DBC140031B549 /* YPMineViewController.m */; };
+		650DEBF31B9DBC2B0031B549 /* YPServiceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBF11B9DBC2B0031B549 /* YPServiceViewController.h */; };
+		650DEBF41B9DBC2B0031B549 /* YPServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBF21B9DBC2B0031B549 /* YPServiceViewController.m */; };
+		650DEBF71B9DBCEB0031B549 /* YPQueueDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBF51B9DBCEB0031B549 /* YPQueueDataSync.h */; };
+		650DEBF81B9DBCEB0031B549 /* YPQueueDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBF61B9DBCEB0031B549 /* YPQueueDataSync.m */; };
+		650DEBFB1B9DBD5B0031B549 /* YPMiniDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBF91B9DBD5B0031B549 /* YPMiniDataSync.h */; };
+		650DEBFC1B9DBD5B0031B549 /* YPMiniDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBFA1B9DBD5B0031B549 /* YPMiniDataSync.m */; };
+		650DEBFF1B9DBD760031B549 /* YPServiceDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEBFD1B9DBD760031B549 /* YPServiceDataSync.h */; };
+		650DEC001B9DBD760031B549 /* YPServiceDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEBFE1B9DBD760031B549 /* YPServiceDataSync.m */; };
+		650DEC031B9DC10E0031B549 /* YPQueueHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC011B9DC10E0031B549 /* YPQueueHeaderView.h */; };
+		650DEC041B9DC10E0031B549 /* YPQueueHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC021B9DC10E0031B549 /* YPQueueHeaderView.m */; };
+		650DEC071B9DC2900031B549 /* YPUnQueueHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC051B9DC2900031B549 /* YPUnQueueHeaderView.h */; };
+		650DEC081B9DC2910031B549 /* YPUnQueueHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC061B9DC2900031B549 /* YPUnQueueHeaderView.m */; };
+		650DEC0B1B9DC53A0031B549 /* YPNormalCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC091B9DC53A0031B549 /* YPNormalCell.h */; };
+		650DEC0C1B9DC53A0031B549 /* YPNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC0A1B9DC53A0031B549 /* YPNormalCell.m */; };
+		650DEC0F1B9DC6790031B549 /* DZNormalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC0D1B9DC6790031B549 /* DZNormalLayout.h */; };
+		650DEC101B9DC6790031B549 /* DZNormalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC0E1B9DC6790031B549 /* DZNormalLayout.m */; };
+		650DEC141B9DCFEA0031B549 /* YPQueueManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC121B9DCFEA0031B549 /* YPQueueManager.h */; };
+		650DEC151B9DCFEA0031B549 /* YPQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC131B9DCFEA0031B549 /* YPQueueManager.m */; };
+		650DEC181BA060490031B549 /* YPMineHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC161BA060490031B549 /* YPMineHeaderView.h */; };
+		650DEC191BA060490031B549 /* YPMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC171BA060490031B549 /* YPMineHeaderView.m */; };
+		650DEC211BA062BF0031B549 /* YPActionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC1F1BA062BF0031B549 /* YPActionLayout.h */; };
+		650DEC221BA062BF0031B549 /* YPActionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC201BA062BF0031B549 /* YPActionLayout.m */; };
+		650DEC251BA062D50031B549 /* YPActionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC231BA062D50031B549 /* YPActionCell.h */; };
+		650DEC261BA062D50031B549 /* YPActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC241BA062D50031B549 /* YPActionCell.m */; };
+		650DEC2A1BA066F40031B549 /* YPSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC281BA066F40031B549 /* YPSettingsViewController.h */; };
+		650DEC2B1BA066F40031B549 /* YPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC291BA066F40031B549 /* YPSettingsViewController.m */; };
+		650DEC331BA068060031B549 /* YPServiceDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC311BA068060031B549 /* YPServiceDetailViewController.h */; };
+		650DEC341BA068060031B549 /* YPServiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC321BA068060031B549 /* YPServiceDetailViewController.m */; };
+		650DEC371BA068240031B549 /* YPServiceDetailHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC351BA068240031B549 /* YPServiceDetailHeaderView.h */; };
+		650DEC381BA068240031B549 /* YPServiceDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC361BA068240031B549 /* YPServiceDetailHeaderView.m */; };
+		650DEC3C1BA404960031B549 /* YPOperationTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC3A1BA404960031B549 /* YPOperationTableViewCell.h */; };
+		650DEC3D1BA404960031B549 /* YPOperationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC3B1BA404960031B549 /* YPOperationTableViewCell.m */; };
+		650DEC491BA40D830031B549 /* YPSearchServiceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC471BA40D830031B549 /* YPSearchServiceViewController.h */; };
+		650DEC4A1BA40D830031B549 /* YPSearchServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC481BA40D830031B549 /* YPSearchServiceViewController.m */; };
+		650DEC4D1BA40DF70031B549 /* YPSearchDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DEC4B1BA40DF70031B549 /* YPSearchDataSync.h */; };
+		650DEC4E1BA40DF70031B549 /* YPSearchDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 650DEC4C1BA40DF70031B549 /* YPSearchDataSync.m */; };
+		6511AFF21BAD364100F034F9 /* YPServiceDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6511AFF01BAD364100F034F9 /* YPServiceDetail.h */; settings = {ASSET_TAGS = (); }; };
+		6511AFF31BAD364100F034F9 /* YPServiceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511AFF11BAD364100F034F9 /* YPServiceDetail.m */; settings = {ASSET_TAGS = (); }; };
+		6511AFF61BAD36BD00F034F9 /* YPBusiniess.h in Headers */ = {isa = PBXBuildFile; fileRef = 6511AFF41BAD36BD00F034F9 /* YPBusiniess.h */; settings = {ASSET_TAGS = (); }; };
+		6511AFF71BAD36BD00F034F9 /* YPBusiniess.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511AFF51BAD36BD00F034F9 /* YPBusiniess.m */; settings = {ASSET_TAGS = (); }; };
+		6558F59D8A044CF0D10DF39B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		65661EF01BACFDF3001CC8B1 /* YPService.h in Headers */ = {isa = PBXBuildFile; fileRef = 65661EEE1BACFDF3001CC8B1 /* YPService.h */; };
+		65661EF11BACFDF3001CC8B1 /* YPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 65661EEF1BACFDF3001CC8B1 /* YPService.m */; };
+		6589A70D1BACFAEA006A6B35 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6589A70C1BACFAEA006A6B35 /* Realm.framework */; };
+		6589A7101BACFB6A006A6B35 /* YPRealmManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6589A70E1BACFB6A006A6B35 /* YPRealmManager.h */; };
+		6589A7111BACFB6A006A6B35 /* YPRealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6589A70F1BACFB6A006A6B35 /* YPRealmManager.m */; };
 		65B8AFA3D0436AAA9E5D21EE /* (null) in Sources */ = {isa = PBXBuildFile; };
+		65ED3CC07A032A66D5E584DB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		65F446991B898C8400405E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F446981B898C8400405E95 /* main.m */; };
 		65F4469C1B898C8400405E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F4469B1B898C8400405E95 /* AppDelegate.m */; };
-		65F4469F1B898C8400405E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F4469E1B898C8400405E95 /* ViewController.m */; };
-		65F446A21B898C8400405E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F446A01B898C8400405E95 /* Main.storyboard */; };
 		65F446A41B898C8400405E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F446A31B898C8400405E95 /* Images.xcassets */; };
 		65F446A71B898C8400405E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F446A51B898C8400405E95 /* LaunchScreen.xib */; };
 		65F446B31B898C8400405E95 /* YouPaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F446B21B898C8400405E95 /* YouPaiTests.m */; };
@@ -211,32 +359,61 @@
 		65F4480C1B899D8800405E95 /* LTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F4480A1B899D8800405E95 /* LTUserInfo.m */; };
 		65F4480F1B899DC200405E95 /* LTUserDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F4480D1B899DC200405E95 /* LTUserDataManager.h */; };
 		65F448101B899DC200405E95 /* LTUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F4480E1B899DC200405E95 /* LTUserDataManager.m */; };
+		677CA376A087F07991D0257D /* (null) in Headers */ = {isa = PBXBuildFile; };
 		678084F182CAB2043CFB3A7B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		6785321B2D42D6F6D6C37E38 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		67DA06A114D69215C4C6AD5F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		67F67D2BD5142E21989ECF47 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		6804ED6C6016D797AAE517BE /* (null) in Sources */ = {isa = PBXBuildFile; };
+		684DDAFB34690FA71FCBE64E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6860EB7DAD075E0CDB8BF1A0 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		692DF1AAF1DEC549889737B3 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		69357EE7BEAF49E3DB3EFAD2 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		69BC56E512300900B9BCABA5 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		69C9FF02F0D864214B7A4581 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		6B6D25D414EBE9BB03BE5DEE /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6C342C2472C497305DB3E5AC /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6C6170A9F37CF38D7DF0282E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6E4BE0E47D025A59728CEDBB /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6F38F38847512B77A47ECED5 /* YPUserLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90ABE7A34BF8B6D4A855C7 /* YPUserLoginReq.m */; };
 		6FBECC2BF2376A6C7A9F11AF /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6FDA89D8D4390141C236901A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		704476F0EF8CE4C50E8356B7 /* YPServerRsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A24154F30EC2288BA8E12A2 /* YPServerRsq.h */; };
+		70AB638A193CF557310BF797 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		71639608821616E8F78584F6 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		720A023B71121E0F737A24F8 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		722FBC5BE86131BEC6119AB4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		72851D0BB4481445768106E8 /* YPFindSPRsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB0D12B95A4C4FC9D2474F2 /* YPFindSPRsp.h */; };
 		72DB822581EDB636E2116549 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		7324B9AB7FFE22DF1CD3D4CD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		73476122262BEDBCAF47F473 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		74C615238DBED6D02215C3DB /* (null) in Headers */ = {isa = PBXBuildFile; };
 		74FDA3469CBB31140D5EC651 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		77227BAF56E40A9D5D3734E7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		77356D205CC9B9313977A844 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		77A5CF601FFE516325C92535 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		780DF3BB7A40A7BE3FF9408F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		787C342661FBBE334AF611BC /* (null) in Headers */ = {isa = PBXBuildFile; };
 		78B0C81898040376845D71E4 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		7979FACBD331FC4AF8741340 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		7987D75AED6F223D47506587 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7A5034ED4BC21A5EF1CC6EDB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7B62B331B739A7059AE899DC /* (null) in Headers */ = {isa = PBXBuildFile; };
+		7C6098CCBA32451CFF190351 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		7CA71C12654EC51A9C6AF0EE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7CAC3735CEFF6FF963C2B2EE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7CD6498738018D0C16EA2654 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7D73CC29379FA2516FBA24C8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		7DA15281DB11A2FF8C07516E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		7DDD01D2A3E1B8BAD4ADC00B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		7E20880CBBA39CF2AFFFABCA /* (null) in Headers */ = {isa = PBXBuildFile; };
+		80B155A97AC69516C7AED825 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		81833D4827910BCB1C39FC57 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		82820E6A5DF44107EB9410F9 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		82DC3F272E07367709FE5443 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8351158C702D6ECE07C9D799 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8388F0B2B937F65EBEE35779 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		83E36873527D1505EDAB620C /* (null) in Sources */ = {isa = PBXBuildFile; };
 		86ED4E089933797336690025 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8729B132F3AE6238DF3C7266 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		879872253C39FF83FBF70497 /* (null) in Headers */ = {isa = PBXBuildFile; };
@@ -244,102 +421,202 @@
 		88399F3688D9C53199536753 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		88B7A5C53135994454CDDF54 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		899405674FE2424804A1DD0D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8A124B367064CEB510B28FD4 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		8A59D043935630F7908D1D39 /* YPUserLoginRsq.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE25DCCA58ACCEEE53345F9 /* YPUserLoginRsq.m */; };
 		8AD1C956029CEFFA38754AA0 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		8BAE63FEF780737E76D421FC /* (null) in Headers */ = {isa = PBXBuildFile; };
+		8CC6D921B5C1B3CBB7339A2A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8D1A0DEA973D8EDCA1E9BB47 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8E5E034E63DCDBC8ACC812E6 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8E87798610D812FC09C5D75E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8E93704116753D9F715A3AC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8F34DD9AC36761158CF926EF /* (null) in Headers */ = {isa = PBXBuildFile; };
 		902724BF4F5B3AF03D6EF7DB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		915056FADA1DAA18A5E1561A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		918BB59B1D1988D7FECEA798 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		91C015DC70CD0992CFE710E3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		91C4047D7AF7B1D1CCC6E8DD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		91C734705E497A887DF5C615 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		921EC2C02CECDA55EAD0F6CF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		92CBF18269CA861E4C0062A2 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		93C917F03A15FCA4910903B5 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9521B309CC9087CF227FB6F9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		95793A69B78343C608CA9130 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		98CB0B56F73AF7C69719E212 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		994DABA2930FBA76CA9E9966 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9A73F83562D3032E68E7B45C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		9AF0A15869821413D4A38CFA /* (null) in Headers */ = {isa = PBXBuildFile; };
+		9B4D6959ACB2CB0B6F1DA36C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		9B812B25D68B0198DDBEA4EE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9C3F23A873D0E0E99C67CDCD /* (null) in Headers */ = {isa = PBXBuildFile; };
+		9D06CD09EC90346003325881 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		9D60C7D7A8CF4F2C0215C69D /* (null) in Headers */ = {isa = PBXBuildFile; };
+		9F5C14AABA63E3930EFEF7C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9FB374DD2EAE5DF5166E345A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A01DDC31CF2A6D9727803A79 /* YPFindSPRsp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2CA63AF221AF1CC95F13 /* YPFindSPRsp.m */; };
 		A032893860E50C9B6B794EEC /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A07F0931FB0E92BF657D9CEB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		A0BC82AE57231300A108E282 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		A17E1E5D68A1A5E643A024B3 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A1C3B8EA21244E7EB6F4DC59 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A27E50A080FB9365705B7B57 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		A3D5B5D1B6B0B60337BE81E4 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A421F915F43B2CFB9832E361 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		A4B31ED0473557B3D906ADBA /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A4D84E5BEC114619D187407C /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A561EA6BC69215A8F7302DC3 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A5C4DCD0525E5AFA0C2A0906 /* YPSPDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 731D503B7DDF65B7C449C598 /* YPSPDetail.m */; };
 		A5CBCBC3F64427F58FE82AA8 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		A60B980D237D6886754B429A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		A61A36D0CC4C174EABFA4777 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A753C0BD06ACBD2D21158C6E /* (null) in Headers */ = {isa = PBXBuildFile; };
 		A82FA8D900DB58FFE4BFBDD1 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A88AEE4FBA19C7116256BCB7 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		A89CF7E1E88F9988F2F303F7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		A9A5F5C9C3C55CF1F6E4CC5B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A9CE09C4210A1C106C310A47 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A9FA13E3451E463D3E0EA4D0 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		AA45B23C6DE1E01454073FCF /* (null) in Sources */ = {isa = PBXBuildFile; };
 		AAC279EF504E27B643701BD9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		AB331658BA7EBC1A1858796F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		AB9C2EA3EC8F6C7CD19B1BB7 /* __YPFindSPReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 33014894A1B2C3C21AEFFE83 /* __YPFindSPReq.m */; };
 		AC8ED4A795D2897907E403D5 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		ACB26652190668968F056012 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		AD201AE97768B49F0E5931F8 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		AECF6039390BF2AF438C1220 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		AFCE0B66AC87A113D9727ACC /* (null) in Sources */ = {isa = PBXBuildFile; };
-		B02EA2D62383FCFEF0782294 /* YPUserLoginReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 255E3BDA02F41EA0F1939EB6 /* YPUserLoginReq.h */; };
+		B02EA2D62383FCFEF0782294 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B04C0B6EB48243DD8C49E795 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B0E92D44437173B99BF1DE5A /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B151A514FB791CDC3768B122 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B29D10EA83EA8602678962E3 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B2AE5DCD34FBEBFDFFBCB28B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B2C95C988D9518BF68AD2281 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B2FBA6F8767E902EEA6A471E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B3A866D842790EA30F7940A9 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B4AF416BDD1CEEEAA8C914F3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B4B31C22D3145B0687D68995 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B640849B18ED01DF8E49B5FD /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B79E3020C184C1DE158F770F /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B854A3AF7A87DAD479BA6D7D /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B867689C69DB04BBFD9808A0 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B8F0D68AFDCF9B29E575139D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B8F5AA07679FFDEA731019AB /* __YPSPDetailReq.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C059AB08118A2047AEE6DD /* __YPSPDetailReq.h */; };
+		B953EF01F6AA5A54F2233F00 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B975D00840E03C7ECA02B14A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B9BA112CF7C5D59D32B4B82A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		BA62424F42DABC5EE965B509 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		BA89B61CFE507C9B109E4FEA /* (null) in Sources */ = {isa = PBXBuildFile; };
+		BB7E1C3B9017F5BA7C9E67A7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		BC1B0D6EAF4F46869B72CE28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		BDC937E6FBFE20B9A337AA7A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		BDEF4882763CB96A73A15876 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		BE1571B3A6AB6982A7830581 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		BE5F977DA3631AF9ADDA73BE /* (null) in Headers */ = {isa = PBXBuildFile; };
 		BF365BCEF16020F244FF5319 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C085FD79BAF70108D5758555 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C1895282BF85A7299797EC88 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		C1DFF70EDDF905BA1BBD0BB3 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C22AFAC52FF2AFBA1B66A058 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		C2697C1FA7318A403266840C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C27330692B0C1C1649834CA5 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C2926E3312C3C1B919A83512 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		C49BC3543040F8096B1E75F1 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C56899974E7CB60233458B21 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		C613DBF6DE6AE55D7D279F94 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C67506417354FE76EFD3333A /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C6B408C1F0E196F37B448B3D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C71FC97A4D958F1793B2390F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		C791838C0FC03D738130D4EE /* (null) in Headers */ = {isa = PBXBuildFile; };
+		C7B0B58BFF4B6060953580A5 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		C7E8CEE36E4D11031EA20653 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		CA8A9A460AAC8A83FAA44955 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		CAC771CA3AF1F52E8101E51F /* (null) in Headers */ = {isa = PBXBuildFile; };
+		CAD17AB949ED2963B68EA4F8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CBA9A756DAD940A99AB75D91 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		CC271B7D525B854B8A815071 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		CC5D31B05DB3988B8CAB9B94 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CD96CCFB37FA9216FD668FCF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CDAECE7610A1F8230FF3310F /* (null) in Headers */ = {isa = PBXBuildFile; };
 		CE06473C50E116471AD55913 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		CEBCE04ABB13A7B765C297D5 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		CF0209EDB22726D6C8DEEACD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		CFA62C13BF1D316F4E0CBD86 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		CFF85E7A6AAF3FA099C8E07E /* (null) in Headers */ = {isa = PBXBuildFile; };
+		D02F54A1A551C766B7309514 /* YPUserLoginReq.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FB88E72AF5540F6881767D /* YPUserLoginReq.h */; };
 		D0908F2809F588B6601B9D81 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D1048B34B85ED3BA2CF0B43C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D1300757ED4432B238B9A428 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D1492E9FB2A8A24AFE15A7F1 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		D1BD0E37E6EBAC0EBBF38658 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D1EA268CC6367A8C4D70836F /* (null) in Headers */ = {isa = PBXBuildFile; };
+		D1F44124A1E0099C8BE745B7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D27575C79AB4B8D25492A0AD /* (null) in Headers */ = {isa = PBXBuildFile; };
 		D38865D9DA17FC9B3239BAA7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D3EF2090CF862F137A5DDB65 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D50D25903B83A896F3F97DAC /* YPFindSPTypeDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 12A031D57123078C1ECFFF68 /* YPFindSPTypeDetail.h */; };
+		D62E238E38CB4B1942F0BA03 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D6357C18C5D9513CA01737EB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D6F9701DEA81FAF28CA4E9A6 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		D9A3BACE95C4ADFBC69936D0 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		DAC4FCB95F762C679E247BE6 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		DB8990793FD19DF3961B311E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DBC967AB149C84527B0F26D7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DC5676C560A75FAA97EFD51E /* (null) in Headers */ = {isa = PBXBuildFile; };
 		DD27FB834C87DC353BFA66E9 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DE3DB15A97731029A5389533 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DE65281C8514299F4C714EC0 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		DF088088C4E88F874C9D702F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E01B8579D0580A5B1626DD6F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E044DCBA3E83752A31324E30 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E184CC781142DC34520EECEC /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E192918CF093233D9C250A1E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E1CD664787E6890F0B0F1EE7 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		E348EE5861D661B1CBC076CD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E3F373F3C11417D6B94EE1CD /* __YPFindSPReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBD03B24D955F46AB5335D6 /* __YPFindSPReq.h */; };
 		E42BBCF8115F557584C7D5C0 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E43F7827092175DF754A153C /* (null) in Headers */ = {isa = PBXBuildFile; };
 		E448ED413230EE0E10485F00 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		E4D22D51844782ADB686A164 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E51F333CA150273B2C6FB8D8 /* YPSPData.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D2F02306BD409B5EF64CA8 /* YPSPData.m */; };
+		E52E80121B9E5A923232B448 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		E56C6C879ED4D956D38515D4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E5A9E2D68C1BF3C1E32FE995 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		E6875AB815B9A8660C977E12 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		E774535C3AE9EBED584A7118 /* __YPUserLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DFAA92620A3390AE80987 /* __YPUserLoginReq.m */; };
+		E8624DE1F04EB1F16E3DD9BC /* (null) in Headers */ = {isa = PBXBuildFile; };
 		E866F45BFFFBF569BA6CC8CC /* (null) in Sources */ = {isa = PBXBuildFile; };
 		EB43A16F9E8CB0C74B681708 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		EB60DD10942FEE91858BA8C2 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		EBE0411872857773FD98D413 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		EBFADE091FD82BB706102F28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		EE77E7AFD3F1F242E2E7D0FF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		EFA2C2951E84D5F71CDAB8C8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F0484BA22BE2EDE28D1957F4 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		F052FB942818DB1912E0A061 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		F15C5A6B177F825E5FF05294 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		F1AC7BA941BB314225FCF4FE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F1F90A7DDB68121318760AA8 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F308438F4579E6B156FF5F92 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		F30C0BF189FB3E07347103FE /* (null) in Headers */ = {isa = PBXBuildFile; };
 		F41A98FF7E1F97B55D03DBCE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F5C2B36A862B5FFA609335BA /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F75EF17BEF787714A414280F /* (null) in Headers */ = {isa = PBXBuildFile; };
 		F7DEC13D174C74EA33E1BD6A /* libPods-YouPai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B432F3E60EEB1D599E853D /* libPods-YouPai.a */; };
+		F8A752FF0B699794544AC4E2 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F8BFA511A545AABA0DFF0984 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F8CB3451E6227811EEB7666A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F95752A4DBAB6C4D5C81F2BF /* __YPUserLoginReq.h in Headers */ = {isa = PBXBuildFile; fileRef = A748151C9F520A68CD46DF74 /* __YPUserLoginReq.h */; };
 		FA36C0B52FEE834EE7D5FF57 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		FA391E8D761DE2502BF7AB1A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FA3F5805B4F550B13C559166 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FB78C66B7BEDCAE2DE58F632 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		FC431C89CEDC597F22ECA77D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		FC62C8F32BDA7631FE7E5206 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FCBF82D8613CED70CCC6CADC /* YPFindSPReq.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D1396F3BFF6DCDCFB4B40E /* YPFindSPReq.m */; };
 		FD122F9650D92A4B1C9B65D6 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FD657DFC4D1DCF7D95C44F4D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FE784A81E8B9F3B82487E26E /* (null) in Headers */ = {isa = PBXBuildFile; };
 		FEC79D75E597DCEA5A3C2AA9 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		FEDAD0F1F02DB78CCAB51E18 /* (null) in Headers */ = {isa = PBXBuildFile; };
 		FEDC96080BA229E4E066444D /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -356,9 +633,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		255E3BDA02F41EA0F1939EB6 /* YPUserLoginReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPUserLoginReq.h; sourceTree = "<group>"; };
-		3BBB39374D652C040038AEEB /* YPUserLoginReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPUserLoginReq.m; sourceTree = "<group>"; };
-		4F03A66A434D1155A15349F7 /* YPUserLoginRsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPUserLoginRsq.h; sourceTree = "<group>"; };
+		0AB0D12B95A4C4FC9D2474F2 /* YPFindSPRsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPFindSPRsp.h; sourceTree = "<group>"; };
+		0B90ABE7A34BF8B6D4A855C7 /* YPUserLoginReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPUserLoginReq.m; sourceTree = "<group>"; };
+		0DE25DCCA58ACCEEE53345F9 /* YPUserLoginRsq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPUserLoginRsq.m; sourceTree = "<group>"; };
+		0FBD03B24D955F46AB5335D6 /* __YPFindSPReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = __YPFindSPReq.h; sourceTree = "<group>"; };
+		12A031D57123078C1ECFFF68 /* YPFindSPTypeDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPFindSPTypeDetail.h; sourceTree = "<group>"; };
+		153DFAA92620A3390AE80987 /* __YPUserLoginReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = __YPUserLoginReq.m; sourceTree = "<group>"; };
+		2A1A2CA63AF221AF1CC95F13 /* YPFindSPRsp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPFindSPRsp.m; sourceTree = "<group>"; };
+		33014894A1B2C3C21AEFFE83 /* __YPFindSPReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = __YPFindSPReq.m; sourceTree = "<group>"; };
+		36D2F02306BD409B5EF64CA8 /* YPSPData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPSPData.m; sourceTree = "<group>"; };
+		3A24154F30EC2288BA8E12A2 /* YPServerRsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPServerRsq.h; sourceTree = "<group>"; };
 		650DEB6F1B9C61DE0031B549 /* SAAuthQQProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAuthQQProcess.h; sourceTree = "<group>"; };
 		650DEB701B9C61DE0031B549 /* SAAuthQQProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAuthQQProcess.m; sourceTree = "<group>"; };
 		650DEB711B9C61DE0031B549 /* SAAuthWeChatProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAuthWeChatProcess.h; sourceTree = "<group>"; };
@@ -408,14 +692,60 @@
 		650DEBD81B9C66560031B549 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		650DEBDA1B9C665D0031B549 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		650DEBDC1B9C66640031B549 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		650DEBE91B9DBBFA0031B549 /* YPQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPQueueViewController.h; sourceTree = "<group>"; };
+		650DEBEA1B9DBBFA0031B549 /* YPQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPQueueViewController.m; sourceTree = "<group>"; };
+		650DEBED1B9DBC140031B549 /* YPMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMineViewController.h; sourceTree = "<group>"; };
+		650DEBEE1B9DBC140031B549 /* YPMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPMineViewController.m; sourceTree = "<group>"; };
+		650DEBF11B9DBC2B0031B549 /* YPServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPServiceViewController.h; sourceTree = "<group>"; };
+		650DEBF21B9DBC2B0031B549 /* YPServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPServiceViewController.m; sourceTree = "<group>"; };
+		650DEBF51B9DBCEB0031B549 /* YPQueueDataSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPQueueDataSync.h; sourceTree = "<group>"; };
+		650DEBF61B9DBCEB0031B549 /* YPQueueDataSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPQueueDataSync.m; sourceTree = "<group>"; };
+		650DEBF91B9DBD5B0031B549 /* YPMiniDataSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMiniDataSync.h; sourceTree = "<group>"; };
+		650DEBFA1B9DBD5B0031B549 /* YPMiniDataSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPMiniDataSync.m; sourceTree = "<group>"; };
+		650DEBFD1B9DBD760031B549 /* YPServiceDataSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPServiceDataSync.h; sourceTree = "<group>"; };
+		650DEBFE1B9DBD760031B549 /* YPServiceDataSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPServiceDataSync.m; sourceTree = "<group>"; };
+		650DEC011B9DC10E0031B549 /* YPQueueHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPQueueHeaderView.h; sourceTree = "<group>"; };
+		650DEC021B9DC10E0031B549 /* YPQueueHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPQueueHeaderView.m; sourceTree = "<group>"; };
+		650DEC051B9DC2900031B549 /* YPUnQueueHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPUnQueueHeaderView.h; sourceTree = "<group>"; };
+		650DEC061B9DC2900031B549 /* YPUnQueueHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPUnQueueHeaderView.m; sourceTree = "<group>"; };
+		650DEC091B9DC53A0031B549 /* YPNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNormalCell.h; sourceTree = "<group>"; };
+		650DEC0A1B9DC53A0031B549 /* YPNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNormalCell.m; sourceTree = "<group>"; };
+		650DEC0D1B9DC6790031B549 /* DZNormalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNormalLayout.h; sourceTree = "<group>"; };
+		650DEC0E1B9DC6790031B549 /* DZNormalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNormalLayout.m; sourceTree = "<group>"; };
+		650DEC121B9DCFEA0031B549 /* YPQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPQueueManager.h; sourceTree = "<group>"; };
+		650DEC131B9DCFEA0031B549 /* YPQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPQueueManager.m; sourceTree = "<group>"; };
+		650DEC161BA060490031B549 /* YPMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMineHeaderView.h; sourceTree = "<group>"; };
+		650DEC171BA060490031B549 /* YPMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPMineHeaderView.m; sourceTree = "<group>"; };
+		650DEC1F1BA062BF0031B549 /* YPActionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPActionLayout.h; sourceTree = "<group>"; };
+		650DEC201BA062BF0031B549 /* YPActionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPActionLayout.m; sourceTree = "<group>"; };
+		650DEC231BA062D50031B549 /* YPActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPActionCell.h; sourceTree = "<group>"; };
+		650DEC241BA062D50031B549 /* YPActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPActionCell.m; sourceTree = "<group>"; };
+		650DEC281BA066F40031B549 /* YPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSettingsViewController.h; sourceTree = "<group>"; };
+		650DEC291BA066F40031B549 /* YPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSettingsViewController.m; sourceTree = "<group>"; };
+		650DEC311BA068060031B549 /* YPServiceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPServiceDetailViewController.h; sourceTree = "<group>"; };
+		650DEC321BA068060031B549 /* YPServiceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPServiceDetailViewController.m; sourceTree = "<group>"; };
+		650DEC351BA068240031B549 /* YPServiceDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPServiceDetailHeaderView.h; sourceTree = "<group>"; };
+		650DEC361BA068240031B549 /* YPServiceDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPServiceDetailHeaderView.m; sourceTree = "<group>"; };
+		650DEC3A1BA404960031B549 /* YPOperationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPOperationTableViewCell.h; sourceTree = "<group>"; };
+		650DEC3B1BA404960031B549 /* YPOperationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPOperationTableViewCell.m; sourceTree = "<group>"; };
+		650DEC471BA40D830031B549 /* YPSearchServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSearchServiceViewController.h; sourceTree = "<group>"; };
+		650DEC481BA40D830031B549 /* YPSearchServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSearchServiceViewController.m; sourceTree = "<group>"; };
+		650DEC4B1BA40DF70031B549 /* YPSearchDataSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSearchDataSync.h; sourceTree = "<group>"; };
+		650DEC4C1BA40DF70031B549 /* YPSearchDataSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSearchDataSync.m; sourceTree = "<group>"; };
+		6511AFF01BAD364100F034F9 /* YPServiceDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPServiceDetail.h; sourceTree = "<group>"; };
+		6511AFF11BAD364100F034F9 /* YPServiceDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPServiceDetail.m; sourceTree = "<group>"; };
+		6511AFF41BAD36BD00F034F9 /* YPBusiniess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPBusiniess.h; sourceTree = "<group>"; };
+		6511AFF51BAD36BD00F034F9 /* YPBusiniess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPBusiniess.m; sourceTree = "<group>"; };
+		65661EEE1BACFDF3001CC8B1 /* YPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPService.h; sourceTree = "<group>"; };
+		65661EEF1BACFDF3001CC8B1 /* YPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPService.m; sourceTree = "<group>"; };
+		6589A70C1BACFAEA006A6B35 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6589A70E1BACFB6A006A6B35 /* YPRealmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPRealmManager.h; sourceTree = "<group>"; };
+		6589A70F1BACFB6A006A6B35 /* YPRealmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPRealmManager.m; sourceTree = "<group>"; };
 		65F446931B898C8400405E95 /* YouPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F446971B898C8400405E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F446981B898C8400405E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65F4469A1B898C8400405E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F4469B1B898C8400405E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65F4469D1B898C8400405E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65F4469E1B898C8400405E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65F446A11B898C8400405E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65F446A31B898C8400405E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65F446A61B898C8400405E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65F446AC1B898C8400405E95 /* YouPaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouPaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -491,12 +821,25 @@
 		65F4480A1B899D8800405E95 /* LTUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTUserInfo.m; sourceTree = "<group>"; };
 		65F4480D1B899DC200405E95 /* LTUserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTUserDataManager.h; sourceTree = "<group>"; };
 		65F4480E1B899DC200405E95 /* LTUserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTUserDataManager.m; sourceTree = "<group>"; };
+		6F6CFD79CC6106AC3D706B8D /* YPServerRsq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPServerRsq.m; sourceTree = "<group>"; };
+		71E5D2F070558B5CECB08D97 /* YPSPDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPSPDetail.h; sourceTree = "<group>"; };
+		731D503B7DDF65B7C449C598 /* YPSPDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPSPDetail.m; sourceTree = "<group>"; };
 		754CE251E5E4D09BAA3128C2 /* Pods-YouPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouPai/Pods-YouPai.release.xcconfig"; sourceTree = "<group>"; };
 		835EAB1C066E1BC351F37DCB /* Pods-YouPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouPai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouPai/Pods-YouPai.debug.xcconfig"; sourceTree = "<group>"; };
-		8DE98AE194A4A6C15037FF06 /* YPUserLoginRsq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPUserLoginRsq.m; sourceTree = "<group>"; };
-		B5608A61EA251874B92A3082 /* __YPUserLoginReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = __YPUserLoginReq.m; sourceTree = "<group>"; };
-		BC1F130A9EB1CD5EA761D25C /* __YPUserLoginReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = __YPUserLoginReq.h; sourceTree = "<group>"; };
+		8FD80DB021EDEAB1CB82DFC0 /* YPQueueModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPQueueModel.h; sourceTree = "<group>"; };
+		A3AD7FC837A7D09626BEAB7D /* YPFindSPTypeDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPFindSPTypeDetail.m; sourceTree = "<group>"; };
+		A748151C9F520A68CD46DF74 /* __YPUserLoginReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = __YPUserLoginReq.h; sourceTree = "<group>"; };
+		A8F44A2C7912CCBBA03B57BE /* YPFindSPReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPFindSPReq.h; sourceTree = "<group>"; };
+		B2FB88E72AF5540F6881767D /* YPUserLoginReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPUserLoginReq.h; sourceTree = "<group>"; };
+		C0C059AB08118A2047AEE6DD /* __YPSPDetailReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = __YPSPDetailReq.h; sourceTree = "<group>"; };
+		CC28416BE1AC08272111A938 /* YPSPData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPSPData.h; sourceTree = "<group>"; };
+		D2D1396F3BFF6DCDCFB4B40E /* YPFindSPReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPFindSPReq.m; sourceTree = "<group>"; };
+		D4B6F270A5EA70DF7D3F425C /* YPQueueModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPQueueModel.m; sourceTree = "<group>"; };
 		D8B432F3E60EEB1D599E853D /* libPods-YouPai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YouPai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0335B58F8893893EA060DB /* YPSPDetailReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPSPDetailReq.h; sourceTree = "<group>"; };
+		DDA051176AE3C7D70987E1F4 /* YPSPDetailReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YPSPDetailReq.m; sourceTree = "<group>"; };
+		E630F7D8F52A568C9C2CF340 /* YPUserLoginRsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YPUserLoginRsq.h; sourceTree = "<group>"; };
+		F42A8C2E92DBAD11351AC343 /* __YPSPDetailReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = __YPSPDetailReq.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -508,6 +851,7 @@
 				650DEBDB1B9C665D0031B549 /* libicucore.dylib in Frameworks */,
 				650DEBD91B9C66560031B549 /* libz.dylib in Frameworks */,
 				650DEBD71B9C66500031B549 /* CoreTelephony.framework in Frameworks */,
+				6589A70D1BACFAEA006A6B35 /* Realm.framework in Frameworks */,
 				650DEBD51B9C66320031B549 /* SystemConfiguration.framework in Frameworks */,
 				650DEBD31B9C662B0031B549 /* libc++.dylib in Frameworks */,
 				650DEBA91B9C634B0031B549 /* WeChatConnection.framework in Frameworks */,
@@ -655,6 +999,135 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		650DEBDE1B9C6B900031B549 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				650DEBE91B9DBBFA0031B549 /* YPQueueViewController.h */,
+				650DEBEA1B9DBBFA0031B549 /* YPQueueViewController.m */,
+				650DEBF51B9DBCEB0031B549 /* YPQueueDataSync.h */,
+				650DEBF61B9DBCEB0031B549 /* YPQueueDataSync.m */,
+				650DEC011B9DC10E0031B549 /* YPQueueHeaderView.h */,
+				650DEC021B9DC10E0031B549 /* YPQueueHeaderView.m */,
+				650DEC051B9DC2900031B549 /* YPUnQueueHeaderView.h */,
+				650DEC061B9DC2900031B549 /* YPUnQueueHeaderView.m */,
+			);
+			name = Home;
+			path = YouPai/Classes/UI/Controllers/Home;
+			sourceTree = SOURCE_ROOT;
+		};
+		650DEBDF1B9C6B900031B549 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				650DEBED1B9DBC140031B549 /* YPMineViewController.h */,
+				650DEBEE1B9DBC140031B549 /* YPMineViewController.m */,
+				650DEBF91B9DBD5B0031B549 /* YPMiniDataSync.h */,
+				650DEBFA1B9DBD5B0031B549 /* YPMiniDataSync.m */,
+				650DEC161BA060490031B549 /* YPMineHeaderView.h */,
+				650DEC171BA060490031B549 /* YPMineHeaderView.m */,
+			);
+			name = Mine;
+			path = YouPai/Classes/UI/Controllers/Mine;
+			sourceTree = SOURCE_ROOT;
+		};
+		650DEBE01B9C6B900031B549 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC301BA067B60031B549 /* ServiceDetail */,
+				650DEBF11B9DBC2B0031B549 /* YPServiceViewController.h */,
+				650DEBF21B9DBC2B0031B549 /* YPServiceViewController.m */,
+				650DEBFD1B9DBD760031B549 /* YPServiceDataSync.h */,
+				650DEBFE1B9DBD760031B549 /* YPServiceDataSync.m */,
+			);
+			name = Services;
+			path = YouPai/Classes/UI/Controllers/Services;
+			sourceTree = SOURCE_ROOT;
+		};
+		650DEC111B9DCFD90031B549 /* QueueCore */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC121B9DCFEA0031B549 /* YPQueueManager.h */,
+				650DEC131B9DCFEA0031B549 /* YPQueueManager.m */,
+			);
+			path = QueueCore;
+			sourceTree = "<group>";
+		};
+		650DEC1A1BA062810031B549 /* ShowItem */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC1F1BA062BF0031B549 /* YPActionLayout.h */,
+				650DEC201BA062BF0031B549 /* YPActionLayout.m */,
+				650DEC231BA062D50031B549 /* YPActionCell.h */,
+				650DEC241BA062D50031B549 /* YPActionCell.m */,
+			);
+			name = ShowItem;
+			sourceTree = "<group>";
+		};
+		650DEC271BA066DA0031B549 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC281BA066F40031B549 /* YPSettingsViewController.h */,
+				650DEC291BA066F40031B549 /* YPSettingsViewController.m */,
+			);
+			name = Settings;
+			path = YouPai/Classes/UI/Controllers/Settings;
+			sourceTree = SOURCE_ROOT;
+		};
+		650DEC301BA067B60031B549 /* ServiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC311BA068060031B549 /* YPServiceDetailViewController.h */,
+				650DEC321BA068060031B549 /* YPServiceDetailViewController.m */,
+				650DEC351BA068240031B549 /* YPServiceDetailHeaderView.h */,
+				650DEC361BA068240031B549 /* YPServiceDetailHeaderView.m */,
+				650DEC3A1BA404960031B549 /* YPOperationTableViewCell.h */,
+				650DEC3B1BA404960031B549 /* YPOperationTableViewCell.m */,
+			);
+			path = ServiceDetail;
+			sourceTree = "<group>";
+		};
+		650DEC3E1BA40B180031B549 /* AddService */ = {
+			isa = PBXGroup;
+			children = (
+				650DEC471BA40D830031B549 /* YPSearchServiceViewController.h */,
+				650DEC481BA40D830031B549 /* YPSearchServiceViewController.m */,
+				650DEC4B1BA40DF70031B549 /* YPSearchDataSync.h */,
+				650DEC4C1BA40DF70031B549 /* YPSearchDataSync.m */,
+			);
+			name = AddService;
+			path = YouPai/Classes/UI/Controllers/AddService;
+			sourceTree = SOURCE_ROOT;
+		};
+		6511AFEB1BAD0EF800F034F9 /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				6511AFF01BAD364100F034F9 /* YPServiceDetail.h */,
+				6511AFF11BAD364100F034F9 /* YPServiceDetail.m */,
+				6511AFF41BAD36BD00F034F9 /* YPBusiniess.h */,
+				6511AFF51BAD36BD00F034F9 /* YPBusiniess.m */,
+			);
+			path = UIModels;
+			sourceTree = "<group>";
+		};
+		6589A70A1BACFA7B006A6B35 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				6589A70B1BACFA7B006A6B35 /* realm */,
+				65661EEE1BACFDF3001CC8B1 /* YPService.h */,
+				65661EEF1BACFDF3001CC8B1 /* YPService.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		6589A70B1BACFA7B006A6B35 /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				6589A70C1BACFAEA006A6B35 /* Realm.framework */,
+				6589A70E1BACFB6A006A6B35 /* YPRealmManager.h */,
+				6589A70F1BACFB6A006A6B35 /* YPRealmManager.m */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
 		65F4468A1B898C8400405E95 = {
 			isa = PBXGroup;
 			children = (
@@ -681,9 +1154,6 @@
 				65F446BC1B89984A00405E95 /* Classes */,
 				65F4469A1B898C8400405E95 /* AppDelegate.h */,
 				65F4469B1B898C8400405E95 /* AppDelegate.m */,
-				65F4469D1B898C8400405E95 /* ViewController.h */,
-				65F4469E1B898C8400405E95 /* ViewController.m */,
-				65F446A01B898C8400405E95 /* Main.storyboard */,
 				65F446A31B898C8400405E95 /* Images.xcassets */,
 				65F446A51B898C8400405E95 /* LaunchScreen.xib */,
 				65F446961B898C8400405E95 /* Supporting Files */,
@@ -720,6 +1190,8 @@
 		65F446BC1B89984A00405E95 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6589A70A1BACFA7B006A6B35 /* DataBase */,
+				650DEC111B9DCFD90031B549 /* QueueCore */,
 				650DEB6B1B9C61D40031B549 /* ThirdFramework */,
 				65F447D51B89999E00405E95 /* Utilities */,
 				65F446BD1B89984A00405E95 /* Auth */,
@@ -780,6 +1252,7 @@
 		65F446D11B89984A00405E95 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6511AFEB1BAD0EF800F034F9 /* UIModels */,
 				65F446D21B89984A00405E95 /* ProtocolModels */,
 			);
 			path = Models;
@@ -796,8 +1269,20 @@
 		65F446D31B89984A00405E95 /* GenModels */ = {
 			isa = PBXGroup;
 			children = (
-				4F03A66A434D1155A15349F7 /* YPUserLoginRsq.h */,
-				8DE98AE194A4A6C15037FF06 /* YPUserLoginRsq.m */,
+				0AB0D12B95A4C4FC9D2474F2 /* YPFindSPRsp.h */,
+				2A1A2CA63AF221AF1CC95F13 /* YPFindSPRsp.m */,
+				12A031D57123078C1ECFFF68 /* YPFindSPTypeDetail.h */,
+				A3AD7FC837A7D09626BEAB7D /* YPFindSPTypeDetail.m */,
+				8FD80DB021EDEAB1CB82DFC0 /* YPQueueModel.h */,
+				D4B6F270A5EA70DF7D3F425C /* YPQueueModel.m */,
+				3A24154F30EC2288BA8E12A2 /* YPServerRsq.h */,
+				6F6CFD79CC6106AC3D706B8D /* YPServerRsq.m */,
+				CC28416BE1AC08272111A938 /* YPSPData.h */,
+				36D2F02306BD409B5EF64CA8 /* YPSPData.m */,
+				71E5D2F070558B5CECB08D97 /* YPSPDetail.h */,
+				731D503B7DDF65B7C449C598 /* YPSPDetail.m */,
+				E630F7D8F52A568C9C2CF340 /* YPUserLoginRsq.h */,
+				0DE25DCCA58ACCEEE53345F9 /* YPUserLoginRsq.m */,
 			);
 			path = GenModels;
 			sourceTree = "<group>";
@@ -833,8 +1318,12 @@
 		65F447311B89984A00405E95 /* GenProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				255E3BDA02F41EA0F1939EB6 /* YPUserLoginReq.h */,
-				3BBB39374D652C040038AEEB /* YPUserLoginReq.m */,
+				A8F44A2C7912CCBBA03B57BE /* YPFindSPReq.h */,
+				D2D1396F3BFF6DCDCFB4B40E /* YPFindSPReq.m */,
+				DB0335B58F8893893EA060DB /* YPSPDetailReq.h */,
+				DDA051176AE3C7D70987E1F4 /* YPSPDetailReq.m */,
+				B2FB88E72AF5540F6881767D /* YPUserLoginReq.h */,
+				0B90ABE7A34BF8B6D4A855C7 /* YPUserLoginReq.m */,
 			);
 			path = GenProtocols;
 			sourceTree = "<group>";
@@ -842,8 +1331,12 @@
 		65F447321B89984A00405E95 /* GenRequest */ = {
 			isa = PBXGroup;
 			children = (
-				BC1F130A9EB1CD5EA761D25C /* __YPUserLoginReq.h */,
-				B5608A61EA251874B92A3082 /* __YPUserLoginReq.m */,
+				0FBD03B24D955F46AB5335D6 /* __YPFindSPReq.h */,
+				33014894A1B2C3C21AEFFE83 /* __YPFindSPReq.m */,
+				C0C059AB08118A2047AEE6DD /* __YPSPDetailReq.h */,
+				F42A8C2E92DBAD11351AC343 /* __YPSPDetailReq.m */,
+				A748151C9F520A68CD46DF74 /* __YPUserLoginReq.h */,
+				153DFAA92620A3390AE80987 /* __YPUserLoginReq.m */,
 			);
 			path = GenRequest;
 			sourceTree = "<group>";
@@ -872,6 +1365,7 @@
 		65F4473B1B89984A00405E95 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				650DEC1A1BA062810031B549 /* ShowItem */,
 				650DEBBE1B9C64C30031B549 /* UIViewController+Additions.h */,
 				650DEBBF1B9C64C30031B549 /* UIViewController+Additions.m */,
 				65F448011B899BD300405E95 /* LTMainViewController.h */,
@@ -977,6 +1471,15 @@
 		65F447F41B899B4A00405E95 /* Custome */ = {
 			isa = PBXGroup;
 			children = (
+				650DEC3E1BA40B180031B549 /* AddService */,
+				650DEC271BA066DA0031B549 /* Settings */,
+				650DEC0D1B9DC6790031B549 /* DZNormalLayout.h */,
+				650DEC0E1B9DC6790031B549 /* DZNormalLayout.m */,
+				650DEC091B9DC53A0031B549 /* YPNormalCell.h */,
+				650DEC0A1B9DC53A0031B549 /* YPNormalCell.m */,
+				650DEBDE1B9C6B900031B549 /* Home */,
+				650DEBDF1B9C6B900031B549 /* Mine */,
+				650DEBE01B9C6B900031B549 /* Services */,
 				65F447FD1B899B8C00405E95 /* LTNavigationTitleView.h */,
 				65F447FE1B899B8C00405E95 /* LTNavigationTitleView.m */,
 				65F447F91B899B7900405E95 /* UIViewController+LTNavigationBar.h */,
@@ -1017,12 +1520,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650DEC2A1BA066F40031B549 /* YPSettingsViewController.h in Headers */,
 				2C12DAB4CA9CA5815C566F39 /* (null) in Headers */,
 				69C9FF02F0D864214B7A4581 /* (null) in Headers */,
 				B9BA112CF7C5D59D32B4B82A /* (null) in Headers */,
+				650DEC3C1BA404960031B549 /* YPOperationTableViewCell.h in Headers */,
 				AD201AE97768B49F0E5931F8 /* (null) in Headers */,
 				2DEB148F9252D3A401ED4440 /* (null) in Headers */,
 				B29D10EA83EA8602678962E3 /* (null) in Headers */,
+				6589A7101BACFB6A006A6B35 /* YPRealmManager.h in Headers */,
 				65F447EC1B89999E00405E95 /* MSLog.h in Headers */,
 				81833D4827910BCB1C39FC57 /* (null) in Headers */,
 				181D7FFD86E64E0852898E97 /* (null) in Headers */,
@@ -1040,6 +1546,7 @@
 				65F448071B899D2300405E95 /* LTBackgroundImageView.h in Headers */,
 				8810D83ABFA7BE2B994C0DD2 /* (null) in Headers */,
 				D6F9701DEA81FAF28CA4E9A6 /* (null) in Headers */,
+				650DEC211BA062BF0031B549 /* YPActionLayout.h in Headers */,
 				03CE4D37891F2E6D1D1A68A1 /* (null) in Headers */,
 				014DED189866722A9A7E853D /* (null) in Headers */,
 				65F447521B89984A00405E95 /* LTAccount.h in Headers */,
@@ -1063,6 +1570,8 @@
 				13961CE45D642DEF3CC825F6 /* (null) in Headers */,
 				1FC6419CFAF59166FB8BFCC6 /* (null) in Headers */,
 				A61A36D0CC4C174EABFA4777 /* (null) in Headers */,
+				650DEC031B9DC10E0031B549 /* YPQueueHeaderView.h in Headers */,
+				650DEC141B9DCFEA0031B549 /* YPQueueManager.h in Headers */,
 				8BAE63FEF780737E76D421FC /* (null) in Headers */,
 				E448ED413230EE0E10485F00 /* (null) in Headers */,
 				448E83480AA97C66B71789E4 /* (null) in Headers */,
@@ -1076,10 +1585,12 @@
 				65F447FF1B899B8C00405E95 /* LTNavigationTitleView.h in Headers */,
 				3A351D06B4E0EA9670156E4B /* (null) in Headers */,
 				88399F3688D9C53199536753 /* (null) in Headers */,
+				650DEC071B9DC2900031B549 /* YPUnQueueHeaderView.h in Headers */,
 				65F447541B89984A00405E95 /* LTAccountManager.h in Headers */,
 				74FDA3469CBB31140D5EC651 /* (null) in Headers */,
 				650DEBC01B9C64C30031B549 /* UIViewController+Additions.h in Headers */,
 				A17E1E5D68A1A5E643A024B3 /* (null) in Headers */,
+				650DEC251BA062D50031B549 /* YPActionCell.h in Headers */,
 				78B0C81898040376845D71E4 /* (null) in Headers */,
 				650DEB841B9C61DE0031B549 /* SAToken.h in Headers */,
 				2D238450DF85B39F1BBFB863 /* (null) in Headers */,
@@ -1109,13 +1620,17 @@
 				B0E92D44437173B99BF1DE5A /* (null) in Headers */,
 				650DEB801B9C61DE0031B549 /* SAReqAuthProcess.h in Headers */,
 				CFA62C13BF1D316F4E0CBD86 /* (null) in Headers */,
+				650DEC4D1BA40DF70031B549 /* YPSearchDataSync.h in Headers */,
 				8388F0B2B937F65EBEE35779 /* (null) in Headers */,
+				650DEC0F1B9DC6790031B549 /* DZNormalLayout.h in Headers */,
+				650DEC0B1B9DC53A0031B549 /* YPNormalCell.h in Headers */,
 				65F447C11B89984B00405E95 /* MSSyncCenter.h in Headers */,
 				3ACA072814CE3E8910A49D0C /* (null) in Headers */,
 				77356D205CC9B9313977A844 /* (null) in Headers */,
 				127327EBDCA13B9C8B083D35 /* (null) in Headers */,
 				CA8A9A460AAC8A83FAA44955 /* (null) in Headers */,
 				9C3F23A873D0E0E99C67CDCD /* (null) in Headers */,
+				650DEBEB1B9DBBFA0031B549 /* YPQueueViewController.h in Headers */,
 				7E20880CBBA39CF2AFFFABCA /* (null) in Headers */,
 				69357EE7BEAF49E3DB3EFAD2 /* (null) in Headers */,
 				572059400405AEDD35D5A24C /* (null) in Headers */,
@@ -1133,15 +1648,18 @@
 				65F447D31B89984B00405E95 /* LTGlobalViewController.h in Headers */,
 				5144A20B3A26A51AFF90985A /* (null) in Headers */,
 				4B47CC2B0E9E76647ACCE84B /* (null) in Headers */,
+				6511AFF21BAD364100F034F9 /* YPServiceDetail.h in Headers */,
 				650DEBB21B9C634B0031B549 /* WeiboSDK.h in Headers */,
 				B640849B18ED01DF8E49B5FD /* (null) in Headers */,
 				692DF1AAF1DEC549889737B3 /* (null) in Headers */,
 				65F4480B1B899D8800405E95 /* LTUserInfo.h in Headers */,
+				650DEC371BA068240031B549 /* YPServiceDetailHeaderView.h in Headers */,
 				3FFFDC862F3E700C2410EC8F /* (null) in Headers */,
 				65F447C91B89984B00405E95 /* LTInputTableViewCell.h in Headers */,
 				650DEB7E1B9C61DE0031B549 /* SAAuthWeChatProcess.h in Headers */,
 				65F447F21B89999E00405E95 /* LTFiles.h in Headers */,
 				65F447C71B89984B00405E95 /* LTAuthViewController.h in Headers */,
+				650DEBF71B9DBCEB0031B549 /* YPQueueDataSync.h in Headers */,
 				7B62B331B739A7059AE899DC /* (null) in Headers */,
 				0EDE87AD918DE5E00EA693D9 /* (null) in Headers */,
 				65F447B51B89984B00405E95 /* MSRouter.h in Headers */,
@@ -1157,20 +1675,144 @@
 				FEC79D75E597DCEA5A3C2AA9 /* (null) in Headers */,
 				65F447EE1B89999E00405E95 /* MUAlertPool.h in Headers */,
 				65F447BB1B89984B00405E95 /* MSVerifyAuthorRequest.h in Headers */,
+				650DEBEF1B9DBC140031B549 /* YPMineViewController.h in Headers */,
+				650DEC491BA40D830031B549 /* YPSearchServiceViewController.h in Headers */,
 				65F447B91B89984B00405E95 /* MSTokenManager.h in Headers */,
 				65F447E81B89999E00405E95 /* LTGlobals.h in Headers */,
 				65F447561B89984B00405E95 /* LKHaneke.h in Headers */,
 				65F447601B89984B00405E95 /* LTConfigure.h in Headers */,
 				65F4480F1B899DC200405E95 /* LTUserDataManager.h in Headers */,
 				65F447FB1B899B7900405E95 /* UIViewController+LTNavigationBar.h in Headers */,
+				650DEBFB1B9DBD5B0031B549 /* YPMiniDataSync.h in Headers */,
 				65F447CB1B89984B00405E95 /* LTPhoneAuthViewController.h in Headers */,
+				650DEC181BA060490031B549 /* YPMineHeaderView.h in Headers */,
 				65F447F71B899B5100405E95 /* LTNavigationController.h in Headers */,
 				65F447BF1B89984B00405E95 /* MSRequestOperation.h in Headers */,
+				65661EF01BACFDF3001CC8B1 /* YPService.h in Headers */,
 				650DEBCC1B9C65520031B549 /* UIButton+decorate.h in Headers */,
-				16D5BAA0D24807C96DF45499 /* YPUserLoginRsq.h in Headers */,
-				096941E98A2BBFF89EB66FCF /* __YPUserLoginReq.h in Headers */,
+				650DEBFF1B9DBD760031B549 /* YPServiceDataSync.h in Headers */,
+				650DEC331BA068060031B549 /* YPServiceDetailViewController.h in Headers */,
+				16D5BAA0D24807C96DF45499 /* (null) in Headers */,
+				096941E98A2BBFF89EB66FCF /* (null) in Headers */,
 				650DEBD01B9C658A0031B549 /* LTBottomLabelButton.h in Headers */,
-				B02EA2D62383FCFEF0782294 /* YPUserLoginReq.h in Headers */,
+				B02EA2D62383FCFEF0782294 /* (null) in Headers */,
+				650DEBF31B9DBC2B0031B549 /* YPServiceViewController.h in Headers */,
+				6511AFF61BAD36BD00F034F9 /* YPBusiniess.h in Headers */,
+				0FE6C7C7E3E9E851BB80E6F3 /* (null) in Headers */,
+				684DDAFB34690FA71FCBE64E /* (null) in Headers */,
+				6558F59D8A044CF0D10DF39B /* (null) in Headers */,
+				16995B69C0B567CBA8F0D1D8 /* (null) in Headers */,
+				19E1EDB665E7368DFD59A40A /* (null) in Headers */,
+				8A124B367064CEB510B28FD4 /* (null) in Headers */,
+				E1CD664787E6890F0B0F1EE7 /* (null) in Headers */,
+				A9FA13E3451E463D3E0EA4D0 /* (null) in Headers */,
+				F30C0BF189FB3E07347103FE /* (null) in Headers */,
+				B867689C69DB04BBFD9808A0 /* (null) in Headers */,
+				6C6170A9F37CF38D7DF0282E /* (null) in Headers */,
+				F75EF17BEF787714A414280F /* (null) in Headers */,
+				D1EA268CC6367A8C4D70836F /* (null) in Headers */,
+				2D9817666A21CEF030C7D802 /* (null) in Headers */,
+				3E299733FC03F3D2CD26DBB1 /* (null) in Headers */,
+				9B4D6959ACB2CB0B6F1DA36C /* (null) in Headers */,
+				45187C72FD7504C35E142EDD /* (null) in Headers */,
+				7979FACBD331FC4AF8741340 /* (null) in Headers */,
+				6E4BE0E47D025A59728CEDBB /* (null) in Headers */,
+				7DDD01D2A3E1B8BAD4ADC00B /* (null) in Headers */,
+				3FDD688DF7364A8F5C4698DC /* (null) in Headers */,
+				0B8575C8F48D1583185C39E2 /* (null) in Headers */,
+				F15C5A6B177F825E5FF05294 /* (null) in Headers */,
+				35C2EC3E3266385237A936A8 /* (null) in Headers */,
+				2CCBFB94A847145289BC3927 /* (null) in Headers */,
+				0663EAE7AFBE1F34B0C758A5 /* (null) in Headers */,
+				EB60DD10942FEE91858BA8C2 /* (null) in Headers */,
+				4B918F963E6B8345A0CB1D67 /* (null) in Headers */,
+				677CA376A087F07991D0257D /* (null) in Headers */,
+				B953EF01F6AA5A54F2233F00 /* (null) in Headers */,
+				D27575C79AB4B8D25492A0AD /* (null) in Headers */,
+				3084B321F2C9B3352EBA8845 /* (null) in Headers */,
+				A561EA6BC69215A8F7302DC3 /* (null) in Headers */,
+				D1492E9FB2A8A24AFE15A7F1 /* (null) in Headers */,
+				C085FD79BAF70108D5758555 /* (null) in Headers */,
+				BE1571B3A6AB6982A7830581 /* (null) in Headers */,
+				CBA9A756DAD940A99AB75D91 /* (null) in Headers */,
+				28E863F2915108202E7CF11B /* (null) in Headers */,
+				350CC5C9F0EFE0D4F9EF2360 /* (null) in Headers */,
+				A88AEE4FBA19C7116256BCB7 /* (null) in Headers */,
+				4649037F436235EDA8B1A661 /* (null) in Headers */,
+				6219697926B2645F62A6A882 /* (null) in Headers */,
+				DC5676C560A75FAA97EFD51E /* (null) in Headers */,
+				C7B0B58BFF4B6060953580A5 /* (null) in Headers */,
+				3C0BBC8BD50BE5BC839DA6CA /* (null) in Headers */,
+				2D0B1E27276B8D6AAB888540 /* (null) in Headers */,
+				184819B6238DC947173A1B79 /* (null) in Headers */,
+				918BB59B1D1988D7FECEA798 /* (null) in Headers */,
+				E5A9E2D68C1BF3C1E32FE995 /* (null) in Headers */,
+				357846FD6F95307FFE36E33E /* (null) in Headers */,
+				7C6098CCBA32451CFF190351 /* (null) in Headers */,
+				E52E80121B9E5A923232B448 /* (null) in Headers */,
+				592BA303FEE877116282EB2F /* (null) in Headers */,
+				4C87824855C5C97793A7F31E /* (null) in Headers */,
+				9AF0A15869821413D4A38CFA /* (null) in Headers */,
+				DAC4FCB95F762C679E247BE6 /* (null) in Headers */,
+				9D06CD09EC90346003325881 /* (null) in Headers */,
+				4C8DF04ADA6FAF1F4363D24D /* (null) in Headers */,
+				E43F7827092175DF754A153C /* (null) in Headers */,
+				6FDA89D8D4390141C236901A /* (null) in Headers */,
+				1240A3C2A65F1B87DBA443BC /* (null) in Headers */,
+				80B155A97AC69516C7AED825 /* (null) in Headers */,
+				5BF10085FA19F5BE86F5CAE3 /* (null) in Headers */,
+				3C2E46523C16AD9178DF3EBE /* (null) in Headers */,
+				CC271B7D525B854B8A815071 /* (null) in Headers */,
+				F0484BA22BE2EDE28D1957F4 /* (null) in Headers */,
+				CDAECE7610A1F8230FF3310F /* (null) in Headers */,
+				A421F915F43B2CFB9832E361 /* (null) in Headers */,
+				05BC78E63889BDF851BD7113 /* (null) in Headers */,
+				B3A866D842790EA30F7940A9 /* (null) in Headers */,
+				B79E3020C184C1DE158F770F /* (null) in Headers */,
+				03BDA27ACCBB0741F4EC8DAA /* (null) in Headers */,
+				0E526D01716D058457BF857E /* (null) in Headers */,
+				C2926E3312C3C1B919A83512 /* (null) in Headers */,
+				29AB86D27A38B9955AA4F2DF /* (null) in Headers */,
+				FE784A81E8B9F3B82487E26E /* (null) in Headers */,
+				A27E50A080FB9365705B7B57 /* (null) in Headers */,
+				C67506417354FE76EFD3333A /* (null) in Headers */,
+				787C342661FBBE334AF611BC /* (null) in Headers */,
+				CEBCE04ABB13A7B765C297D5 /* (null) in Headers */,
+				BE5F977DA3631AF9ADDA73BE /* (null) in Headers */,
+				B2AE5DCD34FBEBFDFFBCB28B /* (null) in Headers */,
+				5D7D692D3A6E2E4EA9298953 /* (null) in Headers */,
+				47BA2E16D6647F4453F44F39 /* (null) in Headers */,
+				91C734705E497A887DF5C615 /* (null) in Headers */,
+				E8624DE1F04EB1F16E3DD9BC /* (null) in Headers */,
+				7DA15281DB11A2FF8C07516E /* (null) in Headers */,
+				74C615238DBED6D02215C3DB /* (null) in Headers */,
+				34F71C63E18559E3621D494E /* (null) in Headers */,
+				5686B345435910D20648B0BA /* (null) in Headers */,
+				F052FB942818DB1912E0A061 /* (null) in Headers */,
+				A4D84E5BEC114619D187407C /* (null) in Headers */,
+				239651911E158C6DEE4FD7EA /* (null) in Headers */,
+				612DCCE8502C0B3B9E2A628C /* (null) in Headers */,
+				A753C0BD06ACBD2D21158C6E /* (null) in Headers */,
+				6C342C2472C497305DB3E5AC /* (null) in Headers */,
+				4EE19025F8E9E2674D8849EA /* (null) in Headers */,
+				0C9595885A8D0F559A6F40D7 /* (null) in Headers */,
+				0D98999A7CF50244F73853E9 /* (null) in Headers */,
+				44D1718B81C494E689E7CC8A /* (null) in Headers */,
+				C22AFAC52FF2AFBA1B66A058 /* (null) in Headers */,
+				47FF28FD7247FABAD1E75005 /* (null) in Headers */,
+				72851D0BB4481445768106E8 /* YPFindSPRsp.h in Headers */,
+				D50D25903B83A896F3F97DAC /* YPFindSPTypeDetail.h in Headers */,
+				610D6D3692625006901E7AB3 /* YPQueueModel.h in Headers */,
+				704476F0EF8CE4C50E8356B7 /* YPServerRsq.h in Headers */,
+				3B5D2D56662BB0F433764307 /* YPSPData.h in Headers */,
+				287635E80EC639FD88C7D857 /* YPSPDetail.h in Headers */,
+				4A0502E4B65CB39822027124 /* YPUserLoginRsq.h in Headers */,
+				E3F373F3C11417D6B94EE1CD /* __YPFindSPReq.h in Headers */,
+				B8F5AA07679FFDEA731019AB /* __YPSPDetailReq.h in Headers */,
+				F95752A4DBAB6C4D5C81F2BF /* __YPUserLoginReq.h in Headers */,
+				5AA8C412FBB70E4519863576 /* YPFindSPReq.h in Headers */,
+				57DB0B5D98D1F35088D5773A /* YPSPDetailReq.h in Headers */,
+				D02F54A1A551C766B7309514 /* YPUserLoginReq.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,7 +1901,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				650DEBAF1B9C634B0031B549 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				65F446A21B898C8400405E95 /* Main.storyboard in Resources */,
 				65F446A71B898C8400405E95 /* LaunchScreen.xib in Resources */,
 				650DEBAB1B9C634B0031B549 /* ShareSDKLocalizable.strings in Resources */,
 				650DEBB11B9C634B0031B549 /* WeiboSDK.bundle in Resources */,
@@ -1316,11 +1957,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F4469F1B898C8400405E95 /* ViewController.m in Sources */,
 				65F4469C1B898C8400405E95 /* AppDelegate.m in Sources */,
 				65F446991B898C8400405E95 /* main.m in Sources */,
 				2802A773636EE86EBCE305C9 /* (null) in Sources */,
 				91C015DC70CD0992CFE710E3 /* (null) in Sources */,
+				650DEC261BA062D50031B549 /* YPActionCell.m in Sources */,
 				D3EF2090CF862F137A5DDB65 /* (null) in Sources */,
 				F5C2B36A862B5FFA609335BA /* (null) in Sources */,
 				F8CB3451E6227811EEB7666A /* (null) in Sources */,
@@ -1330,9 +1971,11 @@
 				56BAA2474EB436C76E7D4893 /* (null) in Sources */,
 				FC62C8F32BDA7631FE7E5206 /* (null) in Sources */,
 				7CAC3735CEFF6FF963C2B2EE /* (null) in Sources */,
+				650DEC4A1BA40D830031B549 /* YPSearchServiceViewController.m in Sources */,
 				BDEF4882763CB96A73A15876 /* (null) in Sources */,
 				65F448001B899B8C00405E95 /* LTNavigationTitleView.m in Sources */,
 				65F448081B899D2300405E95 /* LTBackgroundImageView.m in Sources */,
+				6511AFF71BAD36BD00F034F9 /* YPBusiniess.m in Sources */,
 				65F447E71B89999E00405E95 /* LTError.m in Sources */,
 				1124C3684A285E56CF431D43 /* (null) in Sources */,
 				9FB374DD2EAE5DF5166E345A /* (null) in Sources */,
@@ -1349,6 +1992,7 @@
 				A4B31ED0473557B3D906ADBA /* (null) in Sources */,
 				65F4480C1B899D8800405E95 /* LTUserInfo.m in Sources */,
 				722FBC5BE86131BEC6119AB4 /* (null) in Sources */,
+				650DEC041B9DC10E0031B549 /* YPQueueHeaderView.m in Sources */,
 				DD27FB834C87DC353BFA66E9 /* (null) in Sources */,
 				86ED4E089933797336690025 /* (null) in Sources */,
 				6804ED6C6016D797AAE517BE /* (null) in Sources */,
@@ -1377,21 +2021,27 @@
 				9521B309CC9087CF227FB6F9 /* (null) in Sources */,
 				F41A98FF7E1F97B55D03DBCE /* (null) in Sources */,
 				65F447D01B89984B00405E95 /* LTPhoneRegisterViewController.m in Sources */,
+				65661EF11BACFDF3001CC8B1 /* YPService.m in Sources */,
 				D6357C18C5D9513CA01737EB /* (null) in Sources */,
 				E56C6C879ED4D956D38515D4 /* (null) in Sources */,
 				4AF3CB13448493AD3FF3DA33 /* (null) in Sources */,
+				650DEC221BA062BF0031B549 /* YPActionLayout.m in Sources */,
 				65F447D21B89984B00405E95 /* LTUserInfoTableViewCell.m in Sources */,
 				650DEB811B9C61DE0031B549 /* SAReqAuthProcess.m in Sources */,
 				D0908F2809F588B6601B9D81 /* (null) in Sources */,
 				902724BF4F5B3AF03D6EF7DB /* (null) in Sources */,
+				650DEC151B9DCFEA0031B549 /* YPQueueManager.m in Sources */,
+				650DEBF81B9DBCEB0031B549 /* YPQueueDataSync.m in Sources */,
 				650DEBC91B9C650E0031B549 /* LTAppearenceTools.m in Sources */,
 				FEDC96080BA229E4E066444D /* (null) in Sources */,
 				B2C95C988D9518BF68AD2281 /* (null) in Sources */,
 				2BF0338215C8D6632EEA14D5 /* (null) in Sources */,
+				650DEBEC1B9DBBFA0031B549 /* YPQueueViewController.m in Sources */,
 				EB43A16F9E8CB0C74B681708 /* (null) in Sources */,
 				EE77E7AFD3F1F242E2E7D0FF /* (null) in Sources */,
 				91C4047D7AF7B1D1CCC6E8DD /* (null) in Sources */,
 				7D73CC29379FA2516FBA24C8 /* (null) in Sources */,
+				650DEC3D1BA404960031B549 /* YPOperationTableViewCell.m in Sources */,
 				650DEB831B9C61DE0031B549 /* SAReqManager.m in Sources */,
 				8D1A0DEA973D8EDCA1E9BB47 /* (null) in Sources */,
 				6B6D25D414EBE9BB03BE5DEE /* (null) in Sources */,
@@ -1400,22 +2050,30 @@
 				650DEB851B9C61DE0031B549 /* SAToken.m in Sources */,
 				293D2A303A349266D4C40B0C /* (null) in Sources */,
 				E866F45BFFFBF569BA6CC8CC /* (null) in Sources */,
+				650DEC191BA060490031B549 /* YPMineHeaderView.m in Sources */,
 				65F447F31B89999E00405E95 /* LTFiles.m in Sources */,
 				BC1B0D6EAF4F46869B72CE28 /* (null) in Sources */,
 				2752D62A45C999FF73DC7A94 /* (null) in Sources */,
+				650DEC0C1B9DC53A0031B549 /* YPNormalCell.m in Sources */,
 				65F447FC1B899B7900405E95 /* UIViewController+LTNavigationBar.m in Sources */,
 				65B8AFA3D0436AAA9E5D21EE /* (null) in Sources */,
 				CF0209EDB22726D6C8DEEACD /* (null) in Sources */,
 				65F447531B89984A00405E95 /* LTAccount.m in Sources */,
+				6511AFF31BAD364100F034F9 /* YPServiceDetail.m in Sources */,
+				650DEC081B9DC2910031B549 /* YPUnQueueHeaderView.m in Sources */,
 				A032893860E50C9B6B794EEC /* (null) in Sources */,
 				4B3C4734E86CB71F813ADC20 /* (null) in Sources */,
+				650DEBF01B9DBC140031B549 /* YPMineViewController.m in Sources */,
 				650DEBCD1B9C65520031B549 /* UIButton+decorate.m in Sources */,
+				650DEC001B9DBD760031B549 /* YPServiceDataSync.m in Sources */,
 				915056FADA1DAA18A5E1561A /* (null) in Sources */,
 				E42BBCF8115F557584C7D5C0 /* (null) in Sources */,
+				650DEBF41B9DBC2B0031B549 /* YPServiceViewController.m in Sources */,
 				0C6E88B130B529FDF47E01C5 /* (null) in Sources */,
 				4EE875FC1D9D7D73865A1046 /* (null) in Sources */,
 				65F447B41B89984B00405E95 /* MSRequest.m in Sources */,
 				AAC279EF504E27B643701BD9 /* (null) in Sources */,
+				650DEC381BA068240031B549 /* YPServiceDetailHeaderView.m in Sources */,
 				419E8C0ACFB0D6F2A8E9ED08 /* (null) in Sources */,
 				F1AC7BA941BB314225FCF4FE /* (null) in Sources */,
 				B4AF416BDD1CEEEAA8C914F3 /* (null) in Sources */,
@@ -1426,17 +2084,21 @@
 				D38865D9DA17FC9B3239BAA7 /* (null) in Sources */,
 				77227BAF56E40A9D5D3734E7 /* (null) in Sources */,
 				5371002756755CFC0AB1FD6A /* (null) in Sources */,
+				650DEC101B9DC6790031B549 /* DZNormalLayout.m in Sources */,
 				ACB26652190668968F056012 /* (null) in Sources */,
 				FD122F9650D92A4B1C9B65D6 /* (null) in Sources */,
 				B151A514FB791CDC3768B122 /* (null) in Sources */,
 				61101FC2343131809D2F84B7 /* (null) in Sources */,
 				65F447F11B89999E00405E95 /* NSValueTransformer+NSString.m in Sources */,
+				650DEBFC1B9DBD5B0031B549 /* YPMiniDataSync.m in Sources */,
 				1C9CABE36AF95508B919DFD7 /* (null) in Sources */,
 				BDC937E6FBFE20B9A337AA7A /* (null) in Sources */,
+				650DEC2B1BA066F40031B549 /* YPSettingsViewController.m in Sources */,
 				650DEB7F1B9C61DE0031B549 /* SAAuthWeChatProcess.m in Sources */,
 				65F447ED1B89999E00405E95 /* MSLog.m in Sources */,
 				30C84AE893FDBC52D2CA63B0 /* (null) in Sources */,
 				48E7D29D851FB2C8AE4AD244 /* (null) in Sources */,
+				650DEC4E1BA40DF70031B549 /* YPSearchDataSync.m in Sources */,
 				921EC2C02CECDA55EAD0F6CF /* (null) in Sources */,
 				8729B132F3AE6238DF3C7266 /* (null) in Sources */,
 				4AD753CE4EF5DE1259D4B42F /* (null) in Sources */,
@@ -1445,6 +2107,7 @@
 				D1048B34B85ED3BA2CF0B43C /* (null) in Sources */,
 				07C741B6911E01983FDDAE29 /* (null) in Sources */,
 				7324B9AB7FFE22DF1CD3D4CD /* (null) in Sources */,
+				650DEC341BA068060031B549 /* YPServiceDetailViewController.m in Sources */,
 				A9A5F5C9C3C55CF1F6E4CC5B /* (null) in Sources */,
 				4F543C1EBD6F6D7D20A1A11A /* (null) in Sources */,
 				A60B980D237D6886754B429A /* (null) in Sources */,
@@ -1453,6 +2116,7 @@
 				65F4475B1B89984B00405E95 /* LTColors.m in Sources */,
 				65F448041B899BD300405E95 /* LTMainViewController.m in Sources */,
 				65F4475D1B89984B00405E95 /* LTFont.m in Sources */,
+				6589A7111BACFB6A006A6B35 /* YPRealmManager.m in Sources */,
 				65F447CE1B89984B00405E95 /* LTPhoneLoginViewController.m in Sources */,
 				65F447571B89984B00405E95 /* LKHaneke.m in Sources */,
 				65F447E91B89999E00405E95 /* LTGlobals.m in Sources */,
@@ -1467,9 +2131,124 @@
 				650DEBC11B9C64C30031B549 /* UIViewController+Additions.m in Sources */,
 				65F447B61B89984B00405E95 /* MSRouter.m in Sources */,
 				65F447EB1B89999E00405E95 /* LTNotificationTools.m in Sources */,
-				182D8960AB68EB3B0AA1F634 /* YPUserLoginRsq.m in Sources */,
-				1CBE510D7A2F225086387885 /* __YPUserLoginReq.m in Sources */,
-				5A47C911D79DA30964289B99 /* YPUserLoginReq.m in Sources */,
+				182D8960AB68EB3B0AA1F634 /* (null) in Sources */,
+				1CBE510D7A2F225086387885 /* (null) in Sources */,
+				5A47C911D79DA30964289B99 /* (null) in Sources */,
+				C56899974E7CB60233458B21 /* (null) in Sources */,
+				1DA29D438D173E3C56F7724F /* (null) in Sources */,
+				7CA71C12654EC51A9C6AF0EE /* (null) in Sources */,
+				177BDCADAA232BA28C57AC94 /* (null) in Sources */,
+				8E87798610D812FC09C5D75E /* (null) in Sources */,
+				DBC967AB149C84527B0F26D7 /* (null) in Sources */,
+				4EC2FCCCEB9AAF1193C39171 /* (null) in Sources */,
+				D1300757ED4432B238B9A428 /* (null) in Sources */,
+				FA3F5805B4F550B13C559166 /* (null) in Sources */,
+				AA45B23C6DE1E01454073FCF /* (null) in Sources */,
+				FA391E8D761DE2502BF7AB1A /* (null) in Sources */,
+				22142863CDB1BF7EE0564D8C /* (null) in Sources */,
+				1C6281B9040C05F74DAB743B /* (null) in Sources */,
+				202F8F9A32C0306F9F9158B3 /* (null) in Sources */,
+				45E17F003BCFE07360F7919B /* (null) in Sources */,
+				9B812B25D68B0198DDBEA4EE /* (null) in Sources */,
+				F8A752FF0B699794544AC4E2 /* (null) in Sources */,
+				0AA69B548B35F350E4F96367 /* (null) in Sources */,
+				34563D1D653F0003B7C694D4 /* (null) in Sources */,
+				BB7E1C3B9017F5BA7C9E67A7 /* (null) in Sources */,
+				DE3DB15A97731029A5389533 /* (null) in Sources */,
+				4EF66A9FD63AB50553AB5A7D /* (null) in Sources */,
+				CAD17AB949ED2963B68EA4F8 /* (null) in Sources */,
+				83E36873527D1505EDAB620C /* (null) in Sources */,
+				D1BD0E37E6EBAC0EBBF38658 /* (null) in Sources */,
+				33EDF4FB6A7ABB3539B4B436 /* (null) in Sources */,
+				E348EE5861D661B1CBC076CD /* (null) in Sources */,
+				0F8D38B5A37DD8DD3DC2F686 /* (null) in Sources */,
+				4692536360FE568C122CE430 /* (null) in Sources */,
+				5BEE2EA637B8E234E28554F1 /* (null) in Sources */,
+				2A0C24BDE64C7AAA7DF8C136 /* (null) in Sources */,
+				EFA2C2951E84D5F71CDAB8C8 /* (null) in Sources */,
+				01D6414BABFF30EF93EFF519 /* (null) in Sources */,
+				71639608821616E8F78584F6 /* (null) in Sources */,
+				2119ADE94B50A95F010EB642 /* (null) in Sources */,
+				C1895282BF85A7299797EC88 /* (null) in Sources */,
+				82820E6A5DF44107EB9410F9 /* (null) in Sources */,
+				8CC6D921B5C1B3CBB7339A2A /* (null) in Sources */,
+				BA62424F42DABC5EE965B509 /* (null) in Sources */,
+				5AB9E2D5412B1CF9DA515E1A /* (null) in Sources */,
+				82DC3F272E07367709FE5443 /* (null) in Sources */,
+				92CBF18269CA861E4C0062A2 /* (null) in Sources */,
+				452758C6D91849850A0903ED /* (null) in Sources */,
+				260122CCF7F9220A5F0CC8CB /* (null) in Sources */,
+				5C1F25B79410C2F5942F5357 /* (null) in Sources */,
+				DE65281C8514299F4C714EC0 /* (null) in Sources */,
+				47AB0A8C626AE37F4BE6118E /* (null) in Sources */,
+				A1C3B8EA21244E7EB6F4DC59 /* (null) in Sources */,
+				0A3951082256C088E8BB809F /* (null) in Sources */,
+				D1F44124A1E0099C8BE745B7 /* (null) in Sources */,
+				E01B8579D0580A5B1626DD6F /* (null) in Sources */,
+				C27330692B0C1C1649834CA5 /* (null) in Sources */,
+				8E5E034E63DCDBC8ACC812E6 /* (null) in Sources */,
+				44364CEF63D292D673079930 /* (null) in Sources */,
+				A9CE09C4210A1C106C310A47 /* (null) in Sources */,
+				2A4CD39747B407773F36468D /* (null) in Sources */,
+				223F81235884409FE7D06BCB /* (null) in Sources */,
+				A89CF7E1E88F9988F2F303F7 /* (null) in Sources */,
+				D62E238E38CB4B1942F0BA03 /* (null) in Sources */,
+				720A023B71121E0F737A24F8 /* (null) in Sources */,
+				45E473DE4C0B07405254D988 /* (null) in Sources */,
+				70AB638A193CF557310BF797 /* (null) in Sources */,
+				C71FC97A4D958F1793B2390F /* (null) in Sources */,
+				C6B408C1F0E196F37B448B3D /* (null) in Sources */,
+				52C5C3D1C6FADFCD1C56C65C /* (null) in Sources */,
+				1101A4BA17A2C3659D7590A4 /* (null) in Sources */,
+				103D1BEAB4CA1A8EA2BCA397 /* (null) in Sources */,
+				8351158C702D6ECE07C9D799 /* (null) in Sources */,
+				1AF30A391F9F4CEF60F094E5 /* (null) in Sources */,
+				E044DCBA3E83752A31324E30 /* (null) in Sources */,
+				98CB0B56F73AF7C69719E212 /* (null) in Sources */,
+				547ACA87E86B7F0DE95C60E3 /* (null) in Sources */,
+				3161E5DC05DFB2ED827B6C18 /* (null) in Sources */,
+				0454FDA59C059B538F05BBB8 /* (null) in Sources */,
+				BA89B61CFE507C9B109E4FEA /* (null) in Sources */,
+				77A5CF601FFE516325C92535 /* (null) in Sources */,
+				6860EB7DAD075E0CDB8BF1A0 /* (null) in Sources */,
+				3355E20CD0DF720D2395318C /* (null) in Sources */,
+				FD657DFC4D1DCF7D95C44F4D /* (null) in Sources */,
+				CD96CCFB37FA9216FD668FCF /* (null) in Sources */,
+				E192918CF093233D9C250A1E /* (null) in Sources */,
+				5F897B994D0DBFCDB6F6FF09 /* (null) in Sources */,
+				73476122262BEDBCAF47F473 /* (null) in Sources */,
+				06A2DC88582364DB82AADCC0 /* (null) in Sources */,
+				8E93704116753D9F715A3AC4 /* (null) in Sources */,
+				FB78C66B7BEDCAE2DE58F632 /* (null) in Sources */,
+				65ED3CC07A032A66D5E584DB /* (null) in Sources */,
+				1EE157AC8A515E2E13FDB894 /* (null) in Sources */,
+				39E3DA4EB5A3834D9184F085 /* (null) in Sources */,
+				780DF3BB7A40A7BE3FF9408F /* (null) in Sources */,
+				9F5C14AABA63E3930EFEF7C2 /* (null) in Sources */,
+				7987D75AED6F223D47506587 /* (null) in Sources */,
+				5875226BF81C871F68A4A485 /* (null) in Sources */,
+				B975D00840E03C7ECA02B14A /* (null) in Sources */,
+				2597844B514D5E991E0353CD /* (null) in Sources */,
+				5C57EF2B38C3F2332455C2CF /* (null) in Sources */,
+				1D163E9F2C307F6523493301 /* (null) in Sources */,
+				0EB3E46B962B82FDF6DBA0E9 /* (null) in Sources */,
+				12E0407CED8D9455034EE4BD /* (null) in Sources */,
+				DB8990793FD19DF3961B311E /* (null) in Sources */,
+				17519C826212698292C2A1A7 /* (null) in Sources */,
+				A07F0931FB0E92BF657D9CEB /* (null) in Sources */,
+				A01DDC31CF2A6D9727803A79 /* YPFindSPRsp.m in Sources */,
+				5ACC881EF22B4C5429AD5602 /* YPFindSPTypeDetail.m in Sources */,
+				01D65429BA639B06C48779F9 /* YPQueueModel.m in Sources */,
+				2290C6177FAF99F2BBA0A3C4 /* YPServerRsq.m in Sources */,
+				E51F333CA150273B2C6FB8D8 /* YPSPData.m in Sources */,
+				A5C4DCD0525E5AFA0C2A0906 /* YPSPDetail.m in Sources */,
+				8A59D043935630F7908D1D39 /* YPUserLoginRsq.m in Sources */,
+				AB9C2EA3EC8F6C7CD19B1BB7 /* __YPFindSPReq.m in Sources */,
+				1081B458E6BF347C3989DB09 /* __YPSPDetailReq.m in Sources */,
+				E774535C3AE9EBED584A7118 /* __YPUserLoginReq.m in Sources */,
+				FCBF82D8613CED70CCC6CADC /* YPFindSPReq.m in Sources */,
+				2B15BE696BAB94B4E65B5FB8 /* YPSPDetailReq.m in Sources */,
+				6F38F38847512B77A47ECED5 /* YPUserLoginReq.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1499,14 +2278,6 @@
 				650DEB941B9C634B0031B549 /* zh-Hans */,
 			);
 			name = ShareSDKLocalizable.strings;
-			sourceTree = "<group>";
-		};
-		65F446A01B898C8400405E95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65F446A11B898C8400405E95 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		65F446A51B898C8400405E95 /* LaunchScreen.xib */ = {
@@ -1605,6 +2376,7 @@
 			baseConfigurationReference = 835EAB1C066E1BC351F37DCB /* Pods-YouPai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/Connection",
@@ -1612,6 +2384,7 @@
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/Extend/QQConnectSDK",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/UI",
+					"$(PROJECT_DIR)/YouPai/Classes/DataBase/realm",
 				);
 				INFOPLIST_FILE = YouPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1629,6 +2402,7 @@
 			baseConfigurationReference = 754CE251E5E4D09BAA3128C2 /* Pods-YouPai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/Connection",
@@ -1636,6 +2410,7 @@
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/Extend/QQConnectSDK",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK",
 					"$(PROJECT_DIR)/YouPai/Classes/ThirdFramework/ShareSDK/UI",
+					"$(PROJECT_DIR)/YouPai/Classes/DataBase/realm",
 				);
 				INFOPLIST_FILE = YouPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

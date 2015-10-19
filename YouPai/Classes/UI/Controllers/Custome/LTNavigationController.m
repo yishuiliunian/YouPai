@@ -42,14 +42,6 @@
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    static int tag = 99999;
-    UIImageView* backgroundImageView = (UIImageView*)[self.view viewWithTag:tag];
-    if (!backgroundImageView) {
-        backgroundImageView = [[UIImageView alloc] initWithImage:DZCachedImageByName(@"bg")];
-        [self.view addSubview:backgroundImageView];
-    }
-    [self.view insertSubview:backgroundImageView atIndex:0];
-    backgroundImageView.frame = self.view.bounds;
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated

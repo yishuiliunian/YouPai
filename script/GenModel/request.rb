@@ -188,6 +188,9 @@ def p_int64(name, req)
   p_number("int64_t", name, req)
 end
 
+def p_double(name, req)
+  p_number("double", name, req)
+end
 def p_string(name, req)
   r = OCObjectRecord.new("NSString",name)
   req.addParamter(r)

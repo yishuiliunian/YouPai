@@ -10,7 +10,6 @@
 #import "LTNavigationController.h"
 #import "LTAuthViewController.h"
 @interface LTGuideContainerViewController ()
-@property (nonatomic, strong) LTNavigationController* authNavigationController;
 @end
 
 @implementation LTGuideContainerViewController

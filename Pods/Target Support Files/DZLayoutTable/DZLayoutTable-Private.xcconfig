@@ -1,0 +1,6 @@
+#include "DZLayoutTable.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DZLayoutTable" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BonMot" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/DZAdjustFrame" "${PODS_ROOT}/Headers/Public/DZCDNFiles" "${PODS_ROOT}/Headers/Public/DZCache" "${PODS_ROOT}/Headers/Public/DZGeometryTools" "${PODS_ROOT}/Headers/Public/DZLayoutTable" "${PODS_ROOT}/Headers/Public/DZProgrameDefines" "${PODS_ROOT}/Headers/Public/DZSinglonFactory" "${PODS_ROOT}/Headers/Public/DateTools" "${PODS_ROOT}/Headers/Public/Haneke" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/MSInputScrollViewController" "${PODS_ROOT}/Headers/Public/Mantle" "${PODS_ROOT}/Headers/Public/NSString+RemoveEmoji" "${PODS_ROOT}/Headers/Public/NSString-UrlEncode" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/StyleSheet" "${PODS_ROOT}/Headers/Public/libextobjc"
+OTHER_LDFLAGS = ${DZLAYOUTTABLE_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

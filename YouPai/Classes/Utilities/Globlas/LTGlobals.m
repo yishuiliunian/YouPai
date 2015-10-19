@@ -41,6 +41,14 @@ NSURL* LTNSURLFromString(NSString* string) {
 }
 
 
+NSURL* ENSURE_URL(id str) {
+    if ([str isKindOfClass:[NSString class]]) {
+        return [NSURL URLWithString:str];
+    } else if ([str isKindOfClass:[NSURL class]]) {
+        return str;
+    }
+    return nil;
+}
 NSTimeInterval LTDefaultTimeStamp()
 {
     return [[NSDate date] timeIntervalSince1970];

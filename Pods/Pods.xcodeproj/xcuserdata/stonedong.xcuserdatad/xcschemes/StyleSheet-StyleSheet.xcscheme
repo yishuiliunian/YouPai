@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54A6B9FD286D1305344D7983"
+               BlueprintIdentifier = "964A7401B228F9E81948FE4B"
                BuildableName = "StyleSheet.bundle"
                BlueprintName = "StyleSheet-StyleSheet"
                ReferencedContainer = "container:Pods.xcodeproj">

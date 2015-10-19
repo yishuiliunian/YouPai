@@ -10,14 +10,9 @@
 #define LTExternObserverMessage(msg) \
 void LTAddObserverFor##msg (NSObject* ob, SEL selector);\
 void LTRemoveObserverFor##msg (NSObject* ob);\
-void LTPost##msg ();\
+void LTPost##msg (NSDictionary* dic);\
 
-//城市重载
-LTExternObserverMessage(CityReload)
-//
 
-//账号重载
 LTExternObserverMessage(AccountLoad)
-//
-LTExternObserverMessage(InjoinClub)
-LTExternObserverMessage(QuitClub)
+LTExternObserverMessage(TabBarOrderSelectIndex)
+LTExternObserverMessage(QueueStateChanged)

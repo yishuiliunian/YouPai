@@ -60,18 +60,22 @@ install_resource()
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/DZAdjustFrame.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZCDNFiles.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZCache.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZGeometryTools.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/DZLayoutTable.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/MSInputScrollViewController.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/StyleSheet.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/DZAdjustFrame.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZCDNFiles.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZCache.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/DZGeometryTools.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/DZLayoutTable.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/MSInputScrollViewController.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/StyleSheet.bundle"
 fi

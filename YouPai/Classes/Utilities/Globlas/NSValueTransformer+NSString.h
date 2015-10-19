@@ -11,6 +11,7 @@ extern NSString * const TMDStringValueTransformerName;
 extern NSString* const TMDInt32ValueTransformerName;
 extern NSString* const TMDIntValueTransformerName;
 extern NSString* const TMDInt64ValueTransformerName;
+extern NSString* const TMDDoubleValueTransformerName;
 @interface NSValueTransformer (NSString)
 
 @end

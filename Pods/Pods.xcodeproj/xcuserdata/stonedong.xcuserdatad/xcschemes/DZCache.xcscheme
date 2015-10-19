@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC70DF1685CAA4EEA4D9A1E1"
+               BlueprintIdentifier = "B4A75A506556570512501175"
                BuildableName = "libDZCache.a"
                BlueprintName = "DZCache"
                ReferencedContainer = "container:Pods.xcodeproj">

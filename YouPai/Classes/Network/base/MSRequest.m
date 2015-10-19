@@ -15,6 +15,7 @@
 #import "MSTokenManager.h"
 #import "LTAccountManager.h"
 #import <NSString+RemoveEmoji.h>
+#import "YPServerRsq.h"
 @interface MSRequest ()
 
 @end
@@ -119,7 +120,7 @@
 
 
     NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:url];
-    [request setHTTPMethod:HttpMethodGET];
+    [request setHTTPMethod:HttpMethodPOST];
     [self willSendRequest:request];
 
     //
@@ -138,18 +139,20 @@
     NSLog(@"服务器返回的数据是:%@",str);
 #endif
     MSRequestOnErrorAndReturn(error);
+    
     if (![dic isKindOfClass:[NSDictionary class]]) {
         error = [NSError ltErrorWithCode:LTErrorCodeDecode];
         MSRequestOnErrorAndReturn(error);
     }
-    int ret = [dic[@"status"] intValue];
-    if (ret != 0) {
-        NSString* message = dic[@"message"];
-        error = [NSError ltErrorWithCode:ret message:message];
+    YPServerRsq* rsp =  [MTLJSONAdapter modelOfClass:[YPServerRsq class] fromJSONDictionary:dic error:&error];
+    MSRequestOnErrorAndReturn(error);
+
+    if (rsp.code != 1) {
+        error = [NSError ltErrorWithCode:rsp.code message:rsp.message];
         MSRequestOnErrorAndReturn(error);
     }
     NSMutableDictionary* resultMaps = [NSMutableDictionary new];
-    id retData = dic[@"result"];
+    id retData = rsp.data;
     if ([retData isKindOfClass:[NSArray class]]) {
         [self onSuccess:retData];
     } else if([retData isKindOfClass:[NSDictionary class]])

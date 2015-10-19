@@ -218,6 +218,38 @@ class OCNumberRecord < JSONRecord
 \t}
 "
   end
+
+
+  def jsonTransformer
+    if @type == 'int32_t'
+      return     '''
+      + (NSValueTransformer*) <name>JSONTransformer
+      {
+          return [NSValueTransformer valueTransformerForName:TMDInt32ValueTransformerName];
+      }
+          '''.gsub(/<name>/,@name)
+
+    elsif  @type == "int64_t"
+      return     '''
+      + (NSValueTransformer*) <name>JSONTransformer
+      {
+          return [NSValueTransformer valueTransformerForName:TMDInt64ValueTransformerName];
+      }
+          '''.gsub(/<name>/,@name)
+
+    elsif @type == "double"
+      return     '''
+      + (NSValueTransformer*) <name>JSONTransformer
+      {
+          return [NSValueTransformer valueTransformerForName:TMDDoubleValueTransformerName];
+      }
+          '''.gsub(/<name>/,@name)
+
+    else
+      return ""
+    end
+  end
+
 end
 
 
@@ -227,7 +259,7 @@ def array(name, ocClass ,model=nil)
 end
 
 def object(name, ocClass, model = nil)
-  r = OCCustomObjectRecord.new(ocClass, name, model)
+  r = OCCustomObjectRecord.new(ocClass, name)
   model.addRecord(r)
 end
 def number(type, name, model = nil)
@@ -255,6 +287,10 @@ end
 
 def double(name, model)
   number "double", name, model
+end
+
+def ID(name, model)
+  object name , "NSObject", model
 end
 
 def bool(name, model)

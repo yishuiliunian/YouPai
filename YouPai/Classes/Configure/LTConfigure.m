@@ -10,6 +10,7 @@
 #import "LTConfigure.h"
 #import <DZImageCache.h>
 #import "MSLog.h"
+#import "LTAppearenceTools.h"
 
 
 void SetupSocialNetwork()
@@ -23,5 +24,6 @@ void SetupSocialNetwork()
     [MSLog setup];
     SetupSocialNetwork();
     [DZImageShareCache setupAssetsSourceType];
+    LTAppearanceSetup();
 //    [[LTLocationManager shareManager] setup];
 }

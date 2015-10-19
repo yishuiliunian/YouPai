@@ -13,12 +13,33 @@
 #import "LTNavigationBar.h"
 
 
+
+
+
+
+
+IMP_SHARE_TEXT_STYLE(TextTitle,
+                     style.textColor = [UIColor blackColor];
+                     style.font = [UIFont systemFontOfSize:16];
+                     )
+IMP_SHARE_TEXT_STYLE(TextContent,
+                     style.textColor = [UIColor lightGrayColor];
+                     style.font = [UIFont systemFontOfSize:13];
+                     );
+IMP_SHARE_LABEL_STYLE(LabelContent,
+                      style.textStyle = DZStyleTextContent();
+                     );
+
+
+
+
 void LTSetupNavigationBar()
 {
+    
     [[UINavigationBar appearance] setTitleTextAttributes:@{
                                                            UITextAttributeTextColor : [UIColor whiteColor]
                                                            }];
-    
+    [[UINavigationBar appearance] setBackgroundImage:DZCachedImageByName(@"top-0") forBarMetrics:UIBarMetricsDefault];
 }
 
 void LTAppearanceSetup()

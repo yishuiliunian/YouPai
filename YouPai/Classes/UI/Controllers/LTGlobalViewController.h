@@ -14,5 +14,4 @@
 @end
 
 @interface LTGlobalViewController : UIViewController
--  (void) loadAuthViewController:(LTAuthSucceedBlock)block;
 @end

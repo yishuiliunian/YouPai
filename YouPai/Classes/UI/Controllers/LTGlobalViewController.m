@@ -11,6 +11,13 @@
 #import "LTNavigationController.h"
 #import "LTGuideContainerViewController.h"
 #import <DZImageCache.h>
+#import "LTAccountManager.h"
+#import "LTPhoneRegisterViewController.h"
+#import "LTAuthViewController.h"
+#import "YPQueueViewController.h"
+#import "YPMineViewController.h"
+#import "YPServiceViewController.h"
+
 
 @implementation UIViewController (GlobalNavigation)
 
@@ -38,7 +45,11 @@
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    [self loadApplicationMainVC];
+    if (LTShareAccountManager.currentAccount || YES)  {
+        [self loadApplicationMainVC];
+    } else {
+        [self loadGuideViewController];
+    }
 }
 
 - (void) lt_addViewController:(UIViewController*)vc
@@ -65,7 +76,8 @@
 
 - (void) loadGuideViewController
 {
-    LTGuideContainerViewController* guidVC = [LTGuideContainerViewController new];
+    LTAuthViewController* regsiterVC = [LTAuthViewController new];
+    LTGuideContainerViewController* guidVC = [[LTGuideContainerViewController alloc] initWithRootViewController:regsiterVC];
     [self changeMainVC:guidVC];
 }
 - (void) loadApplicationMainVC
@@ -77,11 +89,39 @@
     LTNavigationController*(^NavigationWithRootVC)(UIViewController* vc) = ^(UIViewController* vc) {
         return [[LTNavigationController alloc] initWithRootViewController:vc];
     };
-//    
-//    mainVC.viewControllers  = @[NavigationWithRootVC(selectedVC),
-//                                NavigationWithRootVC(discoverVC),
-//                                NavigationWithRootVC(carMeetVC),
-//                                NavigationWithRootVC(mineVC)];
+    
+    YPMiniDataSync* mineDataSync = [YPMiniDataSync new];
+    YPMineViewController* mineVc = [[YPMineViewController alloc] initWithSyncer:mineDataSync];
+    
+    YPQueueDataSync* ququeDataSync = [YPQueueDataSync new];
+    YPQueueViewController* ququeViewController = [[YPQueueViewController alloc] initWithSyncer:ququeDataSync];
+    
+    YPServiceDataSync* serviceDataSync = [YPServiceDataSync new];
+    YPServiceViewController* serviceVC = [[YPServiceViewController alloc] initWithSyncer:serviceDataSync];
+    
+    void (^DecorateViewControllerTableBar)(UIViewController* vc,
+                                         NSString* title,
+                                         NSString* imageName ,
+                                         NSString* selectedImageName) =
+    ^(UIViewController* vc,
+      NSString* title,
+      NSString* imageName ,
+      NSString* selectedImageName) {
+        vc.tabBarItem.title = title;
+        vc.tabBarItem.image = DZCachedImageByName(imageName);
+        vc.tabBarItem.selectedImage = DZCachedImageByName(selectedImageName);
+    };
+    
+    DecorateViewControllerTableBar(mineVc, @"我", @"tab_mine", @"tab_mine_click");
+    DecorateViewControllerTableBar(ququeViewController, @"队列", @"tab_quque", @"tab_queue_click");
+    DecorateViewControllerTableBar(serviceVC, @"服务", @"tab_service", @"tab_service_click");
+    
+    
+    
+    mainVC.viewControllers  = @[NavigationWithRootVC(ququeViewController),
+                                NavigationWithRootVC(serviceVC),
+                                NavigationWithRootVC(mineVc)];
+                                
     
     [self changeMainVC:mainVC];
 }
@@ -91,11 +131,5 @@
     [super viewWillLayoutSubviews];
 }
 
--  (void) loadAuthViewController:(LTAuthSucceedBlock)block
-{
-//    LTAuthViewController* authViewController  = [[LTAuthViewController alloc] initWithNibName:nil bundle:nil];
-//    LTGuideContainerViewController* nav = [[LTGuideContainerViewController alloc] initWithRootViewController:authViewController];
-//    nav.succeedBlock = block;
-//    [self presentViewController:nav animated:YES completion:nil];
-}
+
 @end

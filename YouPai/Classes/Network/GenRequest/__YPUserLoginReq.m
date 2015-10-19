@@ -6,12 +6,14 @@
 
 - (NSString*) method
 {
-    return @"/user/login";
+    return @"/queue/api/account/login";
 }
 - (bool) loadParamters:(NSError *__autoreleasing *)error
 {
     SendSuperFunctionWithError(loadParamters);
     
+[self addParamter:self.uname forKey:@"uname"];
+[self addParamter:self.passwd forKey:@"passwd"];
 
     return YES;
 }

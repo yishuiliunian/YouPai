@@ -51,14 +51,84 @@ def FindProject
   project.save
 end
 
+##本地模型
+
+model("YPQueueModel") { |m|
+  string "identifier", m
+}
 
 #服务器协议模型
 model("YPUserLoginRsq") { |m|
+  string "uname",m
+  int32 "accountType",m
+  string "mobile",m
+  int32 "userId",m
+  string "email",m
+  string "token",m
+}
+
+model("YPServerRsq") { |m|
+  int32 "code",m
+  ID "data",m
+  string "engMessage",m
+  string "message",m
+  int64 "timestamp",m
+  string "version",m
 }
 
 requestModel("YPUserLoginReq") { |req|
   response "YPUserLoginRsq", req
-  method "/user/login", req
+  method "/queue/api/account/login", req
+  p_string "uname", req
+  p_string "passwd", req
+}
+
+
+model("YPSPData") { |m|
+    int32 "spId" ,m
+    string "spName" ,m
+    string "lnkphone" ,m
+    string "memo" ,m
+    double "lat" ,m
+    double "lng" ,m
+    string "btype" ,m
+}
+
+model("YPFindSPRsp") { |m|
+    array "list", "YPSPData", m
+}
+
+requestModel("YPFindSPReq") { |r|
+    response "YPFindSPRsp", r
+    method '/queue/api/queue/findSp', r
+    p_double "lng", r
+    p_double "lat", r
+}
+
+
+
+model("YPFindSPTypeDetail") { |m|
+    string "momo" ,m
+    string "spTypeName" ,m
+    int32 "spId" ,m
+    int32 "spTypeId" ,m
+}
+
+model("YPSPDetail") { |m|
+    double "lng" ,m
+    string "spName" ,m
+    string "bzType" ,m
+    string "memo" ,m
+    string "lnkphone" ,m
+    int32 "spId" ,m
+    double "lat" ,m
+    array "spTypes", "YPFindSPTypeDetail" ,m
+}
+requestModel("YPSPDetailReq") { |r|
+    response "YPSPDetail", r
+    method '/queue/api/queue/findSpAndSpType', r
+    p_double "lng", r
+    p_double "lat", r
 }
 
 

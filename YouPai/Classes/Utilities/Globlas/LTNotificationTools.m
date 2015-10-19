@@ -18,12 +18,11 @@ void LTRemoveObserverFor##message (NSObject* ob) {\
     [[NSNotificationCenter defaultCenter] removeObserver:ob name:@""#message object:nil];\
 }\
 \
-void LTPost##message () {\
-    [[NSNotificationCenter defaultCenter] postNotificationName:@""#message object:nil];\
+void LTPost##message (NSDictionary* dic) {\
+    [[NSNotificationCenter defaultCenter] postNotificationName:@""#message object:nil userInfo:dic];\
 }
 
 
-LTObserverMessage(CityReload)
+LTObserverMessage(TabBarOrderSelectIndex)
 LTObserverMessage(AccountLoad)
-LTObserverMessage(InjoinClub)
-LTObserverMessage(QuitClub)
+LTObserverMessage(QueueStateChanged)

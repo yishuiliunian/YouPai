@@ -18,6 +18,9 @@ target 'YouPai' do
   pod 'NSString+RemoveEmoji'
   pod 'JSONModel'
   pod 'SVProgressHUD'
+  pod 'DZAdjustFrame'
+  pod 'DZLayoutTable'
+  pod 'BonMot'
 end
 
 target 'YouPaiTests' do

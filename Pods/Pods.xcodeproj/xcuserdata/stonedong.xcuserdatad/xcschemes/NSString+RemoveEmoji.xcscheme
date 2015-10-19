@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB5CD0595A2CE0F8D864F398"
+               BlueprintIdentifier = "544153FDAEA84DF3233F6306"
                BuildableName = "libNSString+RemoveEmoji.a"
                BlueprintName = "NSString+RemoveEmoji"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -10,6 +10,8 @@
 
 #import "LTColors.h"
 #import "LTFont.h"
+#import <DZStyle.h>
+#import <DZLabelStyle.h>
 
 
 FOUNDATION_EXTERN void LTAppearanceSetup();
@@ -21,7 +23,11 @@ FOUNDATION_EXTERN UIImage* imageWithGradients(NSArray *colours);
 
 FOUNDATION_EXTERN CGFloat LTFeedContentWidth();
 
-
+//
+EXTERN_SHARE_TEXT_STYLE(TextTitle);
+EXTERN_SHARE_TEXT_STYLE(TextContent);
+EXTERN_SHARE_LABEL_STYLE(LabelContent);
+//
 typedef enum {
    LTNavigationStyleTransparency,
     LTNavigationStyleBlack
@@ -30,3 +36,5 @@ typedef enum {
 @property (nonatomic, assign) LTNavigationStyle naviationBarStyle;
 - (void) loadNavigationBarAppearance:(LTNavigationStyle)style;
 @end
+
+

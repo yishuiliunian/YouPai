@@ -85,7 +85,7 @@ INIT_DZ_EXTERN_STRING(kMSStorageAccount, MSStorageAccount);
     if (_currentAccount) {
         [self storeAccountToStorage:_currentAccount];
     }
-    LTPostAccountLoad();
+    LTPostAccountLoad(nil);
 }
 
 - (BOOL) checkApplicationAuthorization{

@@ -1,0 +1,1 @@
+../../../BonMot/Pod/Classes/BONText_Private.h

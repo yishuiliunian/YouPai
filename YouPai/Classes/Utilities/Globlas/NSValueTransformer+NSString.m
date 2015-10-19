@@ -13,6 +13,8 @@ NSString * const TMDStringValueTransformerName = @"TMDStringValueTransformerName
 NSString* const TMDInt32ValueTransformerName = @"TMDInt32ValueTransformerName";
 NSString* const TMDIntValueTransformerName = @"TMDIntValueTransformerName";
 NSString* const TMDInt64ValueTransformerName = @"TMDInt64ValueTransformerName";
+NSString* const TMDDoubleValueTransformerName = @"TMDDoubleValueTransformerName";
+
 @implementation NSValueTransformer (NSString)
 + (void)load {
     @autoreleasepool {
@@ -40,7 +42,12 @@ NSString* const TMDInt64ValueTransformerName = @"TMDInt64ValueTransformerName";
         MTLValueTransformer* int32ValueTransformer = [MTLValueTransformer transformerUsingForwardBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
             if (!value) {
                 return @(0);
-            } else if ([value isKindOfClass:[NSNull class]]) {
+            }
+            else if ([value isKindOfClass:[NSNumber class]])
+            {
+                return value;
+            }
+            else if ([value isKindOfClass:[NSNull class]]) {
                 return @(0);
             } else if([value isKindOfClass:[NSString class]]) {
                 return @([value intValue]);
@@ -49,15 +56,39 @@ NSString* const TMDInt64ValueTransformerName = @"TMDInt64ValueTransformerName";
             return @(0);
         } reverseBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
             *success = YES;
-            return [NSString stringWithFormat:@"%d",value];
+            return [NSString stringWithFormat:@"%@",value];
         }];
         
-        
+        MTLValueTransformer* doubleValueTransformer = [MTLValueTransformer transformerUsingForwardBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
+            if (!value) {
+                return @(0);
+            }
+            else if ([value isKindOfClass:[NSNumber class]])
+            {
+                return value;
+            }
+            else if ([value isKindOfClass:[NSNull class]]) {
+                return @(0);
+            } else if([value isKindOfClass:[NSString class]]) {
+                return @([value doubleValue]);
+            }
+            *success = YES;
+            return @(0);
+        } reverseBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
+            *success = YES;
+            return [NSString stringWithFormat:@"%@",value];
+        }];
+ 
         
         MTLValueTransformer* int64ValueTransformer = [MTLValueTransformer transformerUsingForwardBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
             if (!value) {
                 return @(0);
-            } else if ([value isKindOfClass:[NSNull class]]) {
+            }
+            else if ([value isKindOfClass:[NSNumber class]])
+            {
+                return value;
+            }
+            else if ([value isKindOfClass:[NSNull class]]) {
                 return @(0);
             } else if([value isKindOfClass:[NSString class]]) {
                 return @([value longLongValue]);
@@ -66,12 +97,15 @@ NSString* const TMDInt64ValueTransformerName = @"TMDInt64ValueTransformerName";
             return @(0);
         } reverseBlock:^id(id value, BOOL *success, NSError *__autoreleasing *error) {
             *success = YES;
-            return [NSString stringWithFormat:@"%d",value];
+            return [NSString stringWithFormat:@"%@",value];
         }];
+        
+        
         [NSValueTransformer setValueTransformer:int32ValueTransformer forName:TMDInt32ValueTransformerName];
         [NSValueTransformer setValueTransformer:int32ValueTransformer forName:TMDIntValueTransformerName];
         [NSValueTransformer setValueTransformer:int64ValueTransformer forName:TMDInt64ValueTransformerName];
         [NSValueTransformer setValueTransformer:stringValueTransformer forName:TMDStringValueTransformerName];
+        [NSValueTransformer setValueTransformer:doubleValueTransformer forName:TMDDoubleValueTransformerName];
     }
 }
 

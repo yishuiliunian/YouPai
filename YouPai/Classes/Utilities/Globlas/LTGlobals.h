@@ -57,6 +57,7 @@ return [NSValueTransformer mtl_arrayMappingTransformerWithTransformer:[NSValueTr
 
 
 FOUNDATION_EXTERN NSURL* LTNSURLFromString(NSString* string);
+FOUNDATION_EXTERN NSURL* ENSURE_URL(id str);
 
 #define STR_TO_URL(str)    [NSURL URLWithString:str]
 extern NSString* TIME_TO_STR(int64_t timeStamp);
