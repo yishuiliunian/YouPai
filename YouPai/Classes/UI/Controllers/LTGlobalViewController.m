@@ -45,7 +45,7 @@
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    if (LTShareAccountManager.currentAccount || YES)  {
+    if (LTShareAccountManager.currentAccount )  {
         [self loadApplicationMainVC];
     } else {
         [self loadGuideViewController];
@@ -79,13 +79,15 @@
     LTAuthViewController* regsiterVC = [LTAuthViewController new];
     LTGuideContainerViewController* guidVC = [[LTGuideContainerViewController alloc] initWithRootViewController:regsiterVC];
     [self changeMainVC:guidVC];
+    
+    guidVC.succeedBlock = ^(){
+        [self loadApplicationMainVC];
+    };
 }
 - (void) loadApplicationMainVC
 {
-   
     
     LTMainViewController* mainVC = [[LTMainViewController alloc] init];
-    
     LTNavigationController*(^NavigationWithRootVC)(UIViewController* vc) = ^(UIViewController* vc) {
         return [[LTNavigationController alloc] initWithRootViewController:vc];
     };

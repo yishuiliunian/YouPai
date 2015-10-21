@@ -11,6 +11,8 @@
 #import "MUAlertPool.h"
 #import "LTGlobals.h"
 #import "LTPhoneRegisterViewController.h"
+#import "LTAppearenceTools.h"
+#import "YPUserLoginRsq.h"
 @interface LTPhoneLoginViewController () <MSRequestUIDelegate>
 DEFINE_PROPERTY_STRONG_UIButton(rigisterButton);
 @end
@@ -20,7 +22,7 @@ DEFINE_PROPERTY_STRONG_UIButton(rigisterButton);
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.sendButton addTarget:self action:@selector(login) forControlEvents:UIControlEventTouchUpInside];
-    [self.sendButton setTitle:@"登陆" forState:UIControlStateNormal];
+    [self.sendButton setTitle:@"登录" forState:UIControlStateNormal];
     // Do any additional setup after loading the view.
     //
     INIT_SUBVIEW_UIButton(self.scrollView, _rigisterButton);
@@ -32,6 +34,11 @@ DEFINE_PROPERTY_STRONG_UIButton(rigisterButton);
     [_rigisterButton addTarget:self action:@selector(registerUser) forControlEvents:UIControlEventTouchUpInside];
     
     self.title = @"登陆";
+    self.view.backgroundColor = LTColorBackgroundGray();
+#ifdef DEBUG
+   self.passwordTextField.text = @"2";
+    self.phoneTextField.text = @"xx";
+#endif
 }
 - (void) login
 {
@@ -39,6 +46,10 @@ DEFINE_PROPERTY_STRONG_UIButton(rigisterButton);
         return;
     }
     YPUserLoginReq* req = [YPUserLoginReq new];
+#ifdef DEBUG
+    req.uname = @"test";
+    req.passwd = @"123456";
+#endif
     MSPerformRequestWithDelegateSelf(req);
     
     MUAlertShowLoading(@"登录中...");
@@ -52,6 +63,10 @@ DEFINE_PROPERTY_STRONG_UIButton(rigisterButton);
 - (void) request:(MSRequest *)request onSucced:(id)object
 {
     MUAlertShowSuccess(@"成功");
+    YPUserLoginRsq* loginData = (YPUserLoginRsq*)object;
+    [[LTAccountManager shareManager] reloadAccountWithLoginData:loginData];
+    
+    //
     [self ltAuthSuccess];
 }
 

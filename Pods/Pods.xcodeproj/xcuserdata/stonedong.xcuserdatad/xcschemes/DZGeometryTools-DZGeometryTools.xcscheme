@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E82474B074EE72B2D246B40"
+               BlueprintIdentifier = "1987B5165ED743E9186F16C4"
                BuildableName = "DZGeometryTools.bundle"
                BlueprintName = "DZGeometryTools-DZGeometryTools"
                ReferencedContainer = "container:Pods.xcodeproj">

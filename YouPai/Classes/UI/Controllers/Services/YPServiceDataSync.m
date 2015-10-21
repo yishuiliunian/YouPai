@@ -10,30 +10,44 @@
 #import "DZNormalLayout.h"
 #import "YPService.h"
 #import "YPRealmManager.h"
+#import "YPAttrackSPReq.h"
+#import "LTAccountManager.h"
+#import "LTNotificationTools.h"
+@interface YPServiceDataSync () <MSRequestUIDelegate>
+
+@end
+
+
 @implementation YPServiceDataSync
 
+- (void) dealloc
+{
+    LTRemoveObserverForAttrackServiceChanged(self);
+}
+- (instancetype) init
+{
+    self = [super init];
+    if (!self) {
+        return self;
+    }
+    LTAddObserverForAccountLoad(self, @selector(reloadData));
+    return self;
+
+}
 - (void) reloadData
 {
+    YPAttrackSPReq* req = [YPAttrackSPReq new];
+    req.userId = LTCurrentAccount.userID;
+    [MSDefaultSyncCenter performRequest:req withUIDelegate:self];
+}
+
+- (void) request:(MSRequest *)request onError:(NSError *)error
+{
     
-    
-    YPService* service = [YPService new];
-    service.identifier = @"xsdfsdf";
-    service.name = @"朝阳地税厅";
-    service.addressName = @"西城区朝阳北路22号";
-    service.headerURL = @"https://avatars0.githubusercontent.com/u/846525?v=3&s=96";
-    service.watching = YES;
-    
-    YPRealmCreateOrUpdateObject(@[service]);
-    
-    NSMutableArray* array = [NSMutableArray new];
-    for (YPService* s  in [YPService watchedService]) {
-        DZNormalLayout* layout = [DZNormalLayout new];
-        layout.title = s.name;
-        layout.content = s.addressName;
-        layout.imageURL = s.headerURL;
-        [array addObject:layout];
-    }
-    
-    [self finishedReloadAllData:array];
+}
+
+- (void) request:(MSRequest *)request onSucced:(id)object
+{
+    [self finishedReloadAllData:object];
 }
 @end

@@ -1,0 +1,13 @@
+//
+//  YPHistoryDataSync.h
+//  YouPai
+//
+//  Created by stonedong on 15/10/21.
+//  Copyright © 2015年 stonedong. All rights reserved.
+//
+
+#import "DZTableNetwrokDataSync.h"
+
+@interface YPHistoryDataSync : DZTableNetwrokDataSync
+
+@end

@@ -14,13 +14,25 @@
 #import "LTGlobals.h"
 #import "UIViewController+Additions.h"
 #import <CoreText/CoreText.h>
-@interface YPServiceDetailViewController ()
+#import "YPAddAttrackReq.h"
+#import "YPCancelAttrackReq.h"
+@interface YPServiceDetailViewController () <MSRequestUIDelegate>
 DEFINE_PROPERTY_STRONG(YPServiceDetailHeaderView*, headerView);
 @property (nonatomic, strong) YPServiceDetail* serviceDetail;
 @end
 
 @implementation YPServiceDetailViewController
 
+- (void) setService:(YPService *)service
+{
+    if (_service != service) {
+        _service = service;
+        _serviceDetail = [YPServiceDetail new];
+        _serviceDetail.watched = _service.watching;
+        _serviceDetail.name = _service.name;
+    }
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     _headerView = [YPServiceDetailHeaderView new];
@@ -82,7 +94,7 @@ DEFINE_PROPERTY_STRONG(YPServiceDetailHeaderView*, headerView);
     
         self.navigationItem.rightBarButtonItem = item;
     } else {
-        UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithTitle:@"取消关注" style:UIBarButtonItemStyleDone target:self action:@selector(actionWatchThisService)];
+        UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithTitle:@"取消关注" style:UIBarButtonItemStyleDone target:self action:@selector(actionUnWatch)];
         [item setTitleTextAttributes:textAttribute forState:UIControlStateNormal];
         self.navigationItem.rightBarButtonItem = item;
     }
@@ -93,9 +105,19 @@ DEFINE_PROPERTY_STRONG(YPServiceDetailHeaderView*, headerView);
 
 - (void) actionWatchThisService
 {
-    
+    YPAddAttrackReq* addReq = [YPAddAttrackReq new];
+    addReq.userId = LTCurrentAccount.userID;
+    addReq.spId = self.service.identifier;
+    MSPerformRequestWithDelegateSelf(addReq);
 }
 
+- (void) actionUnWatch
+{
+    YPCancelAttrackReq* cancelReq = [YPCancelAttrackReq new];
+    cancelReq.userId = LTCurrentAccount.userID;
+    cancelReq.spId = self.service.identifier;
+    MSPerformRequestWithDelegateSelf(cancelReq);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -127,6 +149,25 @@ DEFINE_PROPERTY_STRONG(YPServiceDetailHeaderView*, headerView);
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 100;
+}
+
+
+- (void) request:(MSRequest *)request onError:(NSError *)error
+{
+    
+}
+
+- (void) request:(MSRequest *)request onSucced:(id)object
+{
+    if ([request isKindOfClass:[YPAddAttrackReq class]]) {
+        MUAlertHUDSuccess(@"关注成功");
+        _serviceDetail.watched = YES;
+        [self updateUIDisplay];
+    } else if ([request isKindOfClass:[YPCancelAttrackReq class]]) {
+        MUAlertHUDSuccess(@"取消关注成功");
+        _serviceDetail.watched = NO;
+        [self updateUIDisplay];
+    }
 }
 
 @end

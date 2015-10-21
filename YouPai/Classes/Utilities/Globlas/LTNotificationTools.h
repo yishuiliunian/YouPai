@@ -16,3 +16,4 @@ void LTPost##msg (NSDictionary* dic);\
 LTExternObserverMessage(AccountLoad)
 LTExternObserverMessage(TabBarOrderSelectIndex)
 LTExternObserverMessage(QueueStateChanged)
+LTExternObserverMessage(AttrackServiceChanged)

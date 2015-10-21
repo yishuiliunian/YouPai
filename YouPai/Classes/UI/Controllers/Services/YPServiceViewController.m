@@ -11,7 +11,8 @@
 #import "YPServiceDetailViewController.h"
 #import "UIViewController+Additions.h"
 #import "YPSearchServiceViewController.h"
-
+#import "DZNormalLayout.h"
+#import "YPService.h"
 @interface YPServiceViewController ()
 @property (nonatomic, strong, readonly) YPServiceDataSync* serviceDataSync;
 @end
@@ -54,7 +55,10 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    DZNormalLayout* layout = (DZNormalLayout*)[self.dataSyncer layoutAtIndex:indexPath.row];
+    YPService* service = (YPService*) layout.dataObject;
     YPServiceDetailViewController* detailVC = [YPServiceDetailViewController new];
+    detailVC.service = service;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 @end

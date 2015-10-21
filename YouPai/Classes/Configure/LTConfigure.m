@@ -11,6 +11,7 @@
 #import <DZImageCache.h>
 #import "MSLog.h"
 #import "LTAppearenceTools.h"
+#import "YPLocationManager.h"
 
 
 void SetupSocialNetwork()
@@ -25,5 +26,7 @@ void SetupSocialNetwork()
     SetupSocialNetwork();
     [DZImageShareCache setupAssetsSourceType];
     LTAppearanceSetup();
+    
+    [YPLocationManager shareManager];
 //    [[LTLocationManager shareManager] setup];
 }

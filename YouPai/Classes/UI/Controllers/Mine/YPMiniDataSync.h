@@ -7,6 +7,9 @@
 //
 
 #import "DZTableDataSync.h"
+#import <DZProgramDefines.h>
+
+DEFINE_DZ_EXTERN_STRING(kYPHistory)
 
 @interface YPMiniDataSync : DZTableDataSync
 

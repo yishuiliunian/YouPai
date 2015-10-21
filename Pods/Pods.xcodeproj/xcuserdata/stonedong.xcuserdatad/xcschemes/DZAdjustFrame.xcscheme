@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "354AE6814C3F76CF2B4DC47A"
+               BlueprintIdentifier = "C00FA945A3435611D8740007"
                BuildableName = "libDZAdjustFrame.a"
                BlueprintName = "DZAdjustFrame"
                ReferencedContainer = "container:Pods.xcodeproj">

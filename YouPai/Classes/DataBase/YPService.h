@@ -7,7 +7,7 @@
 //
 
 #import <Realm/Realm.h>
-
+#import "YPSpSimpleModel.h"
 @interface YPService : RLMObject
 @property (nonatomic, strong) NSString* identifier;
 @property (nonatomic, strong) NSString* name;
@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSString* addressName;
 @property (nonatomic, strong) NSString* headerURL;
 
+- (instancetype) initWithServerData:(YPSpSimpleModel*)model;
 
 + (RLMResults*) watchedService;
 @end

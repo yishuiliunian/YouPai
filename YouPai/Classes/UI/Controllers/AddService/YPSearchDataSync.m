@@ -8,18 +8,32 @@
 
 #import "YPSearchDataSync.h"
 #import "DZNormalLayout.h"
+#import "YPFindSPReq.h"
+#import "YPLocationManager.h"
+#import "MUAlertPool.h"
+
+@interface YPSearchDataSync () <MSRequestUIDelegate>
+
+@end
+
+
 @implementation YPSearchDataSync
 
 - (void) searchWithKeyword:(NSString *)keyword
 {
-    NSMutableArray* array = [NSMutableArray new];
-    for (int i = 0; i < 10; i++) {
-        DZNormalLayout* layout = [DZNormalLayout new];
-        layout.title = @"北京市西城区地税厅";
-        layout.content = @"北京市西城区西直门外大街44号";
-        layout.imageURL = @"http://10086.cn/bj_tail/images/knetSealLogo.png";
-        [array addObject:layout];
-    }
-    [self finishedReloadAllData:array];
+    YPFindSPReq* findReq = [YPFindSPReq new];
+    findReq.lat = YPCurrentLocation.latitude;
+    findReq.lng = YPCurrentLocation.longtitude;
+    MSPerformRequestWithDelegateSelf(findReq);
+}
+
+- (void) request:(MSRequest *)request onSucced:(id)object
+{
+    [self finishedReloadAllData:object];
+}
+
+- (void) request:(MSRequest *)request onError:(NSError *)error
+{
+    MUAlertShowError(error.localizedDescription);
 }
 @end

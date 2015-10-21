@@ -22,9 +22,13 @@
 
 #define EnsureAccountEnd  }];
 
+
+@class YPUserLoginRsq;
 @interface LTAccountManager : NSObject
 @property (nonatomic, strong, readonly) LTAccount* currentAccount;
 + (LTAccountManager*) shareManager;
+
+- (void) reloadAccountWithLoginData:(YPUserLoginRsq*)loginData;
 - (void) reloadAccount:(LTAccount*)account;
 - (void) storeAccountToStorage:(LTAccount*)account;
 /**

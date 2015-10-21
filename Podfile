@@ -21,6 +21,7 @@ target 'YouPai' do
   pod 'DZAdjustFrame'
   pod 'DZLayoutTable'
   pod 'BonMot'
+  pod 'INTULocationManager'
 end
 
 target 'YouPaiTests' do

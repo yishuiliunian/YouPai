@@ -7,7 +7,7 @@
 //
 
 #import "DZAdjustTableViewController.h"
-
+#import "YPService.h"
 @interface YPServiceDetailViewController : DZAdjustTableViewController
-
+@property (nonatomic, strong) YPService* service;
 @end

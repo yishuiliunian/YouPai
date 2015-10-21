@@ -16,10 +16,10 @@
 }
 - (MSToken*) loadTokenForAccount:(LTAccount*)ac
 {
-    if (!ac.accountID) {
+    if (!ac.userID) {
         return nil;
     }
-    id storeData=[[NSUserDefaults standardUserDefaults] objectForKey:ac.accountID];
+    id storeData=[[NSUserDefaults standardUserDefaults] objectForKey:ac.userID];
     
     NSData* dicData = nil;
     if (![storeData isKindOfClass:[NSData class]]) {
@@ -44,7 +44,7 @@
     if (dic && ac) {
         NSError* error;
         NSData* data = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
-        [[NSUserDefaults standardUserDefaults] setObject:data forKey:ac.accountID];
+        [[NSUserDefaults standardUserDefaults] setObject:data forKey:ac.userID];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
 }

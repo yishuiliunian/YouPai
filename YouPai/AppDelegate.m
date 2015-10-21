@@ -28,12 +28,6 @@
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     
-    YPUserLoginReq* req = [YPUserLoginReq new];
-    req.uname = @"test";
-    req.passwd = @"123456";
-    
-    [MSDefaultSyncCenter performRequest:req];
-    
     return YES;
 }
 

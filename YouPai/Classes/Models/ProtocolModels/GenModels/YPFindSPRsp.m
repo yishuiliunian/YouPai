@@ -11,7 +11,7 @@
 
     + (NSValueTransformer*) listJSONTransformer  {
       return [NSValueTransformer mtl_arrayMappingTransformerWithTransformer:
-                                  [NSValueTransformer mtl_JSONDictionaryTransformerWithModelClass:NSClassFromString(@"YPSPData")]];
+                                  [NSValueTransformer mtl_JSONDictionaryTransformerWithModelClass:NSClassFromString(@"YPSpSimpleModel")]];
     }
     
 

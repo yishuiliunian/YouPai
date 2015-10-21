@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34EDAEC8F28E0F8D86AA9573"
+               BlueprintIdentifier = "BD5186A97223A5C0BA89DDD3"
                BuildableName = "libDZProgrameDefines.a"
                BlueprintName = "DZProgrameDefines"
                ReferencedContainer = "container:Pods.xcodeproj">

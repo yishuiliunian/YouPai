@@ -96,6 +96,13 @@ class OCObjectRecord < JSONRecord
   def paramterOutput
     RequestAddObjectParamters("self.#{@name}", @name)
   end
+
+  def importHeader
+    if @type == "NSObject"
+      return ""
+    end
+    return "#import \"#{@type}.h\" \n"
+  end
 end
 
 
@@ -108,6 +115,8 @@ class OCCustomObjectRecord < OCObjectRecord
 }
 "
   end
+
+
 end
 
 class OCArrayRecord < OCObjectRecord
@@ -135,7 +144,7 @@ class OCArrayRecord < OCObjectRecord
     if @ocClass == "NSString"
         return ""
     end
-    "#import \"#{@ocClass}.h\" \n"
+    return "#import \"#{@ocClass}.h\" \n"
   end
 
   def codeOutput

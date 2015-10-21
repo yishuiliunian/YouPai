@@ -1,12 +1,12 @@
 PODS:
-  - BonMot (1.2.2)
-  - CocoaLumberjack (2.0.1):
-    - CocoaLumberjack/Default (= 2.0.1)
-    - CocoaLumberjack/Extensions (= 2.0.1)
-  - CocoaLumberjack/Core (2.0.1)
-  - CocoaLumberjack/Default (2.0.1):
+  - BonMot (2.0.1)
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.0.1):
+  - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
   - DateTools (1.7.0)
   - DZAdjustFrame (0.1.9):
@@ -21,9 +21,10 @@ PODS:
   - DZLayoutTable (0.2.0):
     - DZAdjustFrame
   - DZProgrameDefines (1.0.1)
-  - DZSinglonFactory (1.0.2)
+  - DZSinglonFactory (1.0.3)
   - Haneke (1.0.1)
   - HexColors (2.3.0)
+  - INTULocationManager (4.1.1)
   - JSONModel (1.1.0)
   - libextobjc (0.4.1):
     - libextobjc/EXTADT (= 0.4.1)
@@ -82,6 +83,7 @@ DEPENDENCIES:
   - DZProgrameDefines
   - Haneke
   - HexColors
+  - INTULocationManager
   - JSONModel
   - libextobjc
   - Mantle
@@ -92,8 +94,8 @@ DEPENDENCIES:
   - SVProgressHUD
 
 SPEC CHECKSUMS:
-  BonMot: 3001d57d0ca8f49f039df79286fd3f14b360f3e1
-  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  BonMot: 2d64d5a62f6ca85d599ea3ead4512da3cd58e410
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   DZAdjustFrame: 577268b15b5fc5175a142c21d3999f0ce57e4e9c
   DZCache: 4e4c8470c077a84d5fc25e2d8b1337f110fbf9a6
@@ -101,9 +103,10 @@ SPEC CHECKSUMS:
   DZGeometryTools: 440a906d52535ecba860a6444778eaddb97ebb2f
   DZLayoutTable: 68d24339d1b4b742d402432be0a35ac22e9b056d
   DZProgrameDefines: 623dfe81da225994cbba6f1d9ba982d7f5e7f2a5
-  DZSinglonFactory: 2b43251e9dcb1053c79a7c776dff5bbe0dea602b
+  DZSinglonFactory: c6c1e41f7688a9112a3a6b69fc246ea3a1180aed
   Haneke: d60be8b96b228633b24708dd153169d6849d6f78
   HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
+  INTULocationManager: 83c7373048d583cda57e25eefb9bb8a3675acf16
   JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad

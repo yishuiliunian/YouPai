@@ -13,6 +13,10 @@
 #import "LTAccountManager.h"
 #import "LKHaneke.h"
 #import "LTGlobals.h"
+#import "YPUserInfo.h"
+#import "YPActionLayout.h"
+#import "YPHistoryViewController.h"
+#import "YPHistoryDataSync.h"
 @interface YPMineViewController ()
 @property (nonatomic, strong, readonly) YPMineHeaderView* headerView;
 @property (nonatomic, strong, readonly) YPMiniDataSync* mineDataSyncer;
@@ -48,7 +52,7 @@
 {
     [self.dataSyncer reloadData];
     
-    LTUserInfo* userInfo = LTCurrentAccount.userInfo;
+    YPUserInfo* userInfo = LTCurrentAccount.userInfo;
     [_headerView.headImageView loadAvatarURL:ENSURE_URL(userInfo.avatarURL)];
     if (userInfo.nickName) {
         _headerView.nickLabel.text = userInfo.nickName;
@@ -80,6 +84,17 @@
 {
     YPSettingsViewController* vc = [[YPSettingsViewController alloc] initWithNibName:nil  bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    YPActionLayout* layout = [self.mineDataSyncer layoutAtIndex:indexPath.row];
+    if ([layout.title isEqualToString:kYPHistory]) {
+        YPHistoryDataSync* dataSync = [YPHistoryDataSync new];
+        YPHistoryViewController* vc = [[YPHistoryViewController alloc] initWithSyncer:dataSync];
+        [self.navigationController pushViewController:vc  animated:YES];
+    }
+
 }
 
 @end

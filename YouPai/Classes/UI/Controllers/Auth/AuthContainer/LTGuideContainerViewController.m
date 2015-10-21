@@ -46,6 +46,10 @@
 //    LTAddUserInfoTableViewController* addUserInfoVC = [LTAddUserInfoTableViewController new];
 //    [self.navigationController pushViewController:addUserInfoVC animated:YES];
 
+    [self ltAddUserInfoSuccess];
+    //
+    
+    //
 }
 
 - (void) ltAddUserInfoSuccess

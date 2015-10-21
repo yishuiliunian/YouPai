@@ -26,3 +26,4 @@ void LTPost##message (NSDictionary* dic) {\
 LTObserverMessage(TabBarOrderSelectIndex)
 LTObserverMessage(AccountLoad)
 LTObserverMessage(QueueStateChanged)
+LTObserverMessage(AttrackServiceChanged)

@@ -9,12 +9,13 @@
 #import "YPMiniDataSync.h"
 #import "YPActionLayout.h"
 #import <DZImageCache.h>
+INIT_DZ_EXTERN_STRING(kYPHistory, 历史排队)
 @implementation YPMiniDataSync
 - (void) reloadData
 {
     NSMutableArray* array = [NSMutableArray new];
         YPActionLayout* layout = [YPActionLayout new];
-        layout.title = @"历史排队";
+        layout.title = kYPHistory;
         layout.image = DZCachedImageByName(@"历史排队");
         [array addObject:layout];
     [self finishedReloadAllData:array];

@@ -7,8 +7,23 @@
 //
 
 #import "YPService.h"
-
+#import <DZProgramDefines.h>
 @implementation YPService
+
+- (instancetype) initWithServerData:(YPSpSimpleModel *)model
+{
+    self = [super init];
+    if (!self) {
+        return self;
+    }
+    
+    _identifier = DZ_NUM_2_STR(model.spId);
+    _name = model.spName;
+    _addressName = model.memo;
+    _headerURL = @"";
+    _watching = YES;
+    return self;
+}
 
 + (RLMResults*) watchedService
 {

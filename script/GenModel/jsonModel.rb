@@ -53,6 +53,10 @@ end
 
 ##本地模型
 
+model("YPNullModel") { |m|
+
+}
+
 model("YPQueueModel") { |m|
   string "identifier", m
 }
@@ -84,18 +88,9 @@ requestModel("YPUserLoginReq") { |req|
 }
 
 
-model("YPSPData") { |m|
-    int32 "spId" ,m
-    string "spName" ,m
-    string "lnkphone" ,m
-    string "memo" ,m
-    double "lat" ,m
-    double "lng" ,m
-    string "btype" ,m
-}
 
 model("YPFindSPRsp") { |m|
-    array "list", "YPSPData", m
+    array "list", "YPSpSimpleModel", m
 }
 
 requestModel("YPFindSPReq") { |r|
@@ -129,6 +124,84 @@ requestModel("YPSPDetailReq") { |r|
     method '/queue/api/queue/findSpAndSpType', r
     p_double "lng", r
     p_double "lat", r
+}
+
+model("YPSpSimpleModel") { |m|
+  string "bzType", m
+  double "lat", m
+  double "lng", m
+  string "lnkphone", m
+  string "memo", m
+  int32 "spId", m
+  string "spName", m
+}
+
+model("YPSpSimpleModelList") { |m|
+    array "list", "YPSpSimpleModel", m
+}
+
+requestModel("YPAttrackSPReq")  { |req|
+    response "YPSpSimpleModelList" , req
+    method "/queue/api/account/findAtts" , req
+    p_string "userId", req
+}
+
+requestModel("YPAddAttrackReq") { |req|
+  response "YPNullModel", req
+  method "/queue/api/account/addAtts", req
+  p_string "userId", req
+  p_string "spId", req
+}
+
+requestModel("YPCancelAttrackReq") { |req|
+    response "YPNullModel", req
+    method "/queue/api/account/cancelAtts", req
+    p_string "userId", req
+    p_string "spId", req
+}
+
+model("YPQueueHistoryRecord") { |m|
+  string "bzDate" , m
+  string "bzTime" , m
+  string "endTime" , m
+  int64 "fetchTime" , m
+  int32 "queueNo" , m
+  int32 "spId" , m
+  string "spName" , m
+  int32 "spTypeId" , m
+  string "spTypeName" , m
+  int32 "status" , m
+  int32 "userId" , m
+  int32 "userQueueId" , m
+  int32 "winId" , m
+}
+
+model("YPQueueHistoryRecordList") { |m|
+  array "list", "YPQueueHistoryRecord", m
+}
+requestModel("YPHistoryReq") { |req|
+  method "/queue/api/account/findUQS" , req
+  response "YPQueueHistoryRecordList" , req
+  p_string "userId" , req
+  p_string "startDate" , req
+  p_string "endDate" , req
+  p_int32 "status" , req
+}
+
+##系统账号模型
+
+model("YPUserInfo") { |m|
+    string "nickName", m
+    string "phone", m
+    string "avatarURL", m
+    int32 "accountType", m
+    string "email", m
+}
+
+model("LTAccount") { |m|
+  string "userID", m
+  string "token", m
+  object "userInfo", "YPUserInfo",  m
 }
 
 

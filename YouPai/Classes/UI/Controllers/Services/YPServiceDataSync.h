@@ -9,5 +9,4 @@
 #import "DZTableDataSync.h"
 
 @interface YPServiceDataSync : DZTableDataSync
-
 @end

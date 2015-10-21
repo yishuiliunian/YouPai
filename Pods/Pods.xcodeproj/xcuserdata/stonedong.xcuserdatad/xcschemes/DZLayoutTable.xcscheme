@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "921A56BEE3DF18F67B7FA8DD"
+               BlueprintIdentifier = "0D994C25ED68214E62090C5C"
                BuildableName = "libDZLayoutTable.a"
                BlueprintName = "DZLayoutTable"
                ReferencedContainer = "container:Pods.xcodeproj">

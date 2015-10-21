@@ -13,8 +13,9 @@
 #import "MSTokenManager.h"
 #import "AppDelegate.h"
 #import "LTGlobals.h"
-#import "LTUserInfo.h"
 #import "LTNotificationTools.h"
+#import "YPUserLoginRsq.h"
+#import "LTAccount+Init.h"
 @interface LTAccountManager ()
 @property (nonatomic, assign) int reloadTokenCount;
 @end
@@ -65,6 +66,12 @@ INIT_DZ_EXTERN_STRING(kMSStorageAccount, MSStorageAccount);
     _reloadTokenCount = 0;
     _currentAccount = [self loadAccountFromStorage];
     return self;
+}
+
+- (void) reloadAccountWithLoginData:(YPUserLoginRsq *)loginData
+{
+    LTAccount* account = [[LTAccount alloc] initWithLoginData:loginData];
+    [self reloadAccount:account];
 }
 //- (void) reloadAccountWithServerRsp:(PMTokenAuthRsp*)token
 //{
